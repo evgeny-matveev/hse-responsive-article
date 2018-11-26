@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "header.css";
+@import "main.css";
+@import "sections/about.css";
+@import "sections/distinction.css";
+@import "sections/works.css";
+@import "sections/quotes.css";
+@import "sections/more-info.css";
+@import "footer.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
