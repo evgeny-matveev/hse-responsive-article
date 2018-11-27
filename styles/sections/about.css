@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  justify-content: center;
+}
+
+h1 {
+  padding-top: 35px;
+
+  font-family: "New Old";
+  font-size: 28px;
+  line-height: 25px;
+}
