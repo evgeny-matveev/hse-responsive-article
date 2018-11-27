@@ -5,13 +5,13 @@
 }
 
 @font-face {
-  font-family: "New Old";
+  font-family: "New Old Ultra Expanded Black";
 
   src: url("../fonts/NewOld_UltraExpandedBlack.woff") format("woff");
 }
 
 @font-face {
-  font-family: "New Old";
+  font-family: "New Old Condensed Regular";
 
-  src: url("../fonts/NewOld_UltraExpandedBlack.woff") format("woff");
+  src: url("../fonts/NewOldCondensedRegular.woff") format("woff");
 }
