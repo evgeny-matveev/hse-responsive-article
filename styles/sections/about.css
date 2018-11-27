@@ -2,23 +2,23 @@
   display: flex;
   flex-direction: column;
 
-  width: 405px;
+  width: 436px;
 
   justify-content: center;
 }
 
-h1 {
-  padding-top: 35px;
+ h1 {
+  padding-top: 11px;
   padding-left: 11px;
 
   color: #B4332C;
 
   font-family: "New Old Ultra Expanded";
-  font-size: 25px;
-  line-height: 11px;
+  font-size: 30px;
+  line-height: 30px;
 
 }
-.paragraph1 p {
+ .paragraph1 p {
   width: 390px;
   padding-top: 11px;
   padding-left: 10px;

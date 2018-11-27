@@ -1,0 +1,20 @@
+.distinction {
+ display: flex;
+ flex-direction: column;
+
+ width: 436px;
+
+ justify-content: center;
+}
+
+.paragraph2 p {
+ width: 390px;
+ padding-top: 11px;
+ padding-left: 10px;
+
+ text-align: left;
+
+ font-family: "Helvetica Neue";
+ font-size: 13px;
+ line-height: 19px;
+}
