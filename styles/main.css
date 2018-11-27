@@ -1,0 +1,22 @@
+.more-info {
+  display: flex;
+
+  margin-top: 50px;
+  margin-bottom: 62px;
+
+  justify-content: center;
+}
+.more-info a {
+  padding: 10px 56px;
+
+  text-decoration: none;
+
+  color: #fff;
+  border-radius: 50px;
+  background-color: #FFBA51;
+
+  font-size: 18px;
+}
+.inside {
+  display: none;
+}
