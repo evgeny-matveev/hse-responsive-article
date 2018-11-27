@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  line-height: 1.5;
 }
 
 .content_bio h1 {
@@ -26,6 +28,7 @@
   text-align: right;
   padding-top: 30px;
   padding-bottom: 20px;
+  padding-right: 10px;
 }
 
 .content_bio_text {
