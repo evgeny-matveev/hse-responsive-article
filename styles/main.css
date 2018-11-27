@@ -1,0 +1,8 @@
+main {
+  display: flex;
+
+}
+
+h1, h2, p {
+  color: #000;
+}
