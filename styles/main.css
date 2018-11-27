@@ -1,10 +1,11 @@
 .more-info {
   display: flex;
+  flex-direction: column;
 
   margin-top: 50px;
   margin-bottom: 62px;
 
-  justify-content: center;
+  align-items: center;
 }
 .more-info a {
   padding: 10px 56px;
@@ -17,6 +18,17 @@
 
   font-size: 18px;
 }
-.inside {
-  display: none;
+.more-info .inside {
+  width: 330px;
+  margin-top: -1px;
+
+  border-radius: 10px;
+  background: #ffba51;
+}
+.more-info ul {
+  padding: 20px;
+
+  color: #fff;
+
+  font-size: 18px;
 }
