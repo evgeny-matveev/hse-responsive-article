@@ -1,19 +1,19 @@
 footer {
   background-color: #FFBA51;
 }
-h4 {
+footer h4 {
   font-size: 24px;
   font-weight: bold;
 }
-p {
+footer p {
   margin-top: 11px;
   padding-bottom: 18px;
 
   font-size: 24px;
 }
-a {
+footer a {
   color: inherit;
 }
-a:checked {
+footer a:checked {
   color: inherit;
 }
