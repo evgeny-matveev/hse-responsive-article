@@ -1,23 +1,80 @@
 .pic1 > img {
-  width: 100px;
+  width: 150px;
 }
 
 .pic2 > img {
-  width: 100px;
+  width: 150px;
 }
 
 .pic3 > img {
-  width: 100px;
+  width: 150px;
 }
 
 .pic4 > img {
-  width: 100px;
+  width: 150px;
 }
 
 .pic5 > img {
-  width: 100px;
+  width: 150px;
 }
 
 .pic6 > img {
-  width: 100px;
+  width: 150px;
 }
+
+.works {
+ display: grid;
+
+  margin-top: 11px;
+
+  justify-content: center;
+  align-items: center;
+ grid-template-columns: 150px 150px;
+ grid-template-rows: 225px 225px 225px;
+ grid-gap: 5px;
+}
+
+.pic1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.pic2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.pic3 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.pic4 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.pic5 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.pic6 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+/* .txt1 {
+  display: none;
+
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 1;
+}
+
+.txt1:hover {
+  display: block;
+
+  color: red;
+} */
