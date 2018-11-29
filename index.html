@@ -40,7 +40,7 @@
       <div class="border">
       </div>
     </section>
-    
+
     <section class="works">
 
     </section>
@@ -48,23 +48,41 @@
 
     </section>
     <section class="more-info">
-      <a href="#">
+      <script>
+      function change(inside) {
+        if(document.getElementById(inside).style.display=='none') {
+          document.getElementById(inside).style.display = 'flex';
+        } else {
+          document.getElementById(inside).style.display = 'none';
+        }
+        return false;
+        if(document.getElementById(inside).style.display = 'flex') {
+            document.getElementById(button).style.display = 'none';
+        } else {
+          document.getElementById(button).style.display = 'block';
+        }
+        return false
+      }
+    </script>
+      <a onclick="change('inside')" id="button">
         Узнать больше
       </a>
-      <div class="inside">
+      <div id="inside">
         <ul>
-          <li>Муха, Альфонс-Мария // Энциклопедический словарь Брокгауза и Ефрона : в 86 т. (82 т. и 4 доп.). — СПб., 1890—1907.</li>
-          <li>Официальный сайт фонда А. Мухи (англ.)</li>
+          <li>Официальный сайт фонда А. Мухи</li>
           <li>Работы Альфонса Мухи</li>
           <li>Альфонс Муха. Превращая «земное» в искусство</li>
           <li>Альфонс Муха и его шедевры в стиле модерн</li>
           <li>Около 300 работ Альфонса Мухи</li>
-          <li>Альфонс Муха(Славянская эпопея)</li>
+          <li>Альфонс Муха</li>
           <li>Альфонс Муха: Цветы и грезы Арт Нуво</li>
           <li>«Славянская эпопея» Альфонс Муха</li>
-          <li>Veletržní palác (Kontakty)</li>
+          <li>Veletržní palác</li>
           <li>Автопортрет в масонском облачении</li>
         </ul>
+        <a class="back" onclick="change('inside')">
+          Свернуть
+        </a>
       </div>
     </section>
   </main>

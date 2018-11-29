@@ -5,9 +5,11 @@
   margin-top: 50px;
   margin-bottom: 62px;
 
+  font-family: Roboto, sans-serif;
+
   align-items: center;
 }
-.more-info a {
+.more-info a  {
   padding: 10px 56px;
 
   text-decoration: none;
@@ -18,17 +20,35 @@
 
   font-size: 18px;
 }
-.more-info .inside {
-  width: 330px;
+.more-info a.back {
+  margin-bottom: 30px;
+
+  color: #FFBA51;
+  background-color: #fff;
+}
+.more-info #inside {
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+
+  width: 100vw;
   margin-top: -1px;
 
-  border-radius: 10px;
   background: #ffba51;
+
+  align-items: center;
 }
 .more-info ul {
-  padding: 20px;
+  /* line-height: 19px; */
+  width: 80vw;
+  margin: 26px 24px 30px 24px;
+  /* padding: 26px 24px 102px 24px; */
 
   color: #fff;
 
-  font-size: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.more-info li + li {
+  margin-top: 19px;
 }
