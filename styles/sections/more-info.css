@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 62px;
 
   font-family: Roboto, sans-serif;
@@ -20,11 +20,18 @@
 
   font-size: 18px;
 }
+/* .more-info a#button:checked {
+  display: none;
+} */
 .more-info a.back {
   margin-bottom: 30px;
 
-  color: #FFBA51;
+  color: #FFBA51;
   background-color: #fff;
+
+  font-weight:
+
+  color: #FFBA51;
 }
 .more-info #inside {
   /* display: flex; */
@@ -32,7 +39,7 @@
   flex-direction: column;
 
   width: 100vw;
-  margin-top: -1px;
+  margin-top: -38px;
 
   background: #ffba51;
 
