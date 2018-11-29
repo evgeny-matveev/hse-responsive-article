@@ -1,0 +1,18 @@
+.distinction {
+ display: flex;
+ flex-direction: column;
+
+ justify-content: center;
+}
+
+.paragraph2 p {
+ padding-top: 11px;
+ padding-left: 10px;
+ padding-bottom: 11px;
+
+ text-align: left;
+
+ font-family: "Helvetica Neue";
+ font-size: 13px;
+ line-height: 19px;
+}
