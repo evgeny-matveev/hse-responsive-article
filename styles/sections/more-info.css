@@ -9,7 +9,7 @@
 
   align-items: center;
 }
-.more-info a  {
+.more-info a.button  {
   padding: 10px 56px;
 
   text-decoration: none;
@@ -56,6 +56,26 @@
   font-size: 18px;
   font-weight: bold;
 }
+.more-info ul a {
+  text-decoration: none;
+
+  color: inherit;
+}
 .more-info li + li {
   margin-top: 19px;
+}
+@media (min-width: 320px) {
+  .more-info {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .more-info a.button  {
+    max-width: 420px;
+    padding: 10px 20vw;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1440px) {
+
 }
