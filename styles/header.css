@@ -1,4 +1,4 @@
-ul {
+header ul {
   height: 58px;
 
   display: flex;
@@ -9,7 +9,7 @@ ul {
   background: black;
 }
 
-a {
+header a {
   font-family: "Helvetica Neue";
 
   text-transform: uppercase;
@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-a:after {
+header a:after {
   color: inherit;
 }
 
@@ -36,7 +36,7 @@ a:after {
   width: 30px;
 }
 
-li:nth-of-type(1) img {
+header li:nth-of-type(1) img {
   padding-left: 7px;
 
   height: 45px;
@@ -44,7 +44,7 @@ li:nth-of-type(1) img {
 }
 
 @media (min-width: 768px) {
-  ul {
+  header ul {
     height: 64px;
     padding-right: 14px;
   }
@@ -57,20 +57,20 @@ li:nth-of-type(1) img {
     display: none;
   }
 
-  li:nth-of-type(1) img {
+  header li:nth-of-type(1) img {
     padding-left: 14px;
 
     height: 51px;
     width: 70px;
   }
 
-  a {
+  header a {
     font-size: 14px;
   }
 }
 
 @media (min-width: 1024px) {
-  ul {
+  header ul {
     height: 70px;
     padding-right: 18px;
   }
@@ -79,14 +79,14 @@ li:nth-of-type(1) img {
     display: block;
   }
 
-  li:nth-of-type(1) img {
+  header li:nth-of-type(1) img {
     padding-left: 18px;
 
     height: 54px;
     width: 74px;
   }
 
-  a {
+  header a {
     font-size: 16px;
   }
 }
