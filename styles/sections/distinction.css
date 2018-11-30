@@ -4,7 +4,6 @@
 
   justify-content: center;
 }
-
 .paragraph2 p {
   padding-top: 11px;
   padding-bottom: 11px;
@@ -17,38 +16,44 @@
   line-height: 19px;
 }
 
-@media (min-width: 768px) {
-  .paragraph2 h1 {
-    font-size: 45px;
-  }
 
+@media (min-width: 768px) {
+
+.paragraph2 h1 {
+  font-size: 40px;
+ }
 }
+
+
  @media(min-width: 1024px) {
+
  .paragraph2 p {
    width: 138vh;
-   padding-left: 130px;
+   padding-left: 125px;
 
    text-align: justify;
   }
+
  .paragraph2 h1 {
-   margin-left: 22vh;
+   margin-left: 114px;
 
-   font-size: 37px;
+   font-size: 38px;
  }
-
 }
+
 
 @media (min-width: 1440px) {
 
-   .paragraph2 h1 {
-     margin-left: 44vh;
+.paragraph2 h1 {
+   margin-left: 290px;
 
    font-size: 45px;
    }
-  .paragraph2 p {
-    width: 173vh;
-    padding-left: 45vh;
 
-    text-align: justify;
+.paragraph2 p {
+   width: 900px;
+   padding-left: 300px;
+
+   text-align: justify;
   }
 }
