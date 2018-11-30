@@ -10,11 +10,10 @@
 <body>
   <header>
     <div class="box">
-      <div class="circle">
+        <div class="circle"></div>
         <p class="logo">Родченко</p>
-        <a href="#">меню</a>
-      </div>
     </div>
+    <a href="#">меню</a>
   </header>
       <main>
         <!-- аня -->
@@ -81,6 +80,22 @@
         </div>
         <h3 class="title-inner">Что еще почитать об авторе</h3>
       </div>
+      <ul>
+        <li>
+          <span>Родченко А.</span> Революция в фотографии. М., 2008.
+        </li>
+        <li>
+          <span>Родченко А.</span> Фотография — искусство. М., 2006.
+        </li>
+        <li>
+          <span>Родченко А.</span> Опыты для будущего. М., 1996.
+        </li>
+        <li>В гостях у Родченко и Степановой! М., 2014</li>
+        <li>
+          <span>Родченко А.</span> Самозвери. М., 2014.
+        </li>
+      </ul>
+
 
         </section>
       </main>
@@ -94,6 +109,13 @@
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="javascripts/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.works').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
 </body>
 </html>

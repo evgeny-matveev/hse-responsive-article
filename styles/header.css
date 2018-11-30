@@ -10,9 +10,10 @@ header {
 }
 
 .box {
+  position: relative;
+
   display: flex;
   flex-direction: row;
-  position: relative;
 
   width: 55%;
   height: 50px;
@@ -31,3 +32,27 @@ header {
   border-radius: 20px;
   background-color: #00A263;
 }
+
+header a {
+  color: #fff;
+}
+
+header .box {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  text-transform: uppercase;
+}
+
+header a {
+  margin-right: 10px;
+}
+
