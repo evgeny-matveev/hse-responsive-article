@@ -24,6 +24,16 @@ p,blockquote {
   font-family: "Roboto-Light", sans-serif;
   font-size: 13px;
 }
+
+header a {
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 16px;
+}
+
+header .box .logo {
+  font-family: "rodchenkoctt", sans-serif;
+  font-size: 18px;
+}
 /* .wrapper {
   display: flex;
   flex-direction: column;
