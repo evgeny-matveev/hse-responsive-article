@@ -4,3 +4,14 @@
   src: url("../fonts/AkzidenzGroteskPro-BoldCn.woff");
 }
 
+@font-face {
+  font-family: "Roboto-Light", sans-serif;
+
+  src: url("../fonts/Roboto-Light.woff");
+}
+
+@font-face {
+  font-family: "rodchenkoctt", sans-serif;
+
+  src: url("../fonts/rodchenkoctt.woff");
+}
