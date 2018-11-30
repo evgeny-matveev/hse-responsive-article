@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 341b6110fff66d10f34c84fc75b589e41e1dcf30
 ul {
   height: 58px;
 
@@ -11,7 +15,6 @@ ul {
 
 a {
   font-family: "Helvetica Neue";
-  font-size: 16px;
 
   text-transform: uppercase;
   color: white;
@@ -21,7 +24,6 @@ a {
 a:after {
   color: inherit;
 }
-
 
 .visible-on-desktop {
   display: none;
@@ -62,6 +64,33 @@ li:nth-of-type(1) img {
   li:nth-of-type(1) img {
     padding-left: 14px;
 
-    width: 64px;
+    height: 51px;
+    width: 70px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  ul {
+    height: 70px;
+    padding-right: 18px;
+  }
+
+  .visible-on-desktop {
+    display: block;
+  }
+
+  li:nth-of-type(1) img {
+    padding-left: 18px;
+
+    height: 54px;
+    width: 74px;
+  }
+
+  a {
+    font-size: 16px;
   }
 }
