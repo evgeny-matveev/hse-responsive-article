@@ -2,6 +2,7 @@ footer {
   width: 320px;
   height: 100px;
   background-color: black;
+  display: flex;
 }
 .footer > a {
   text-decoration: none;
@@ -16,22 +17,17 @@ footer {
   margin-top: 10px;
   margin-right: 20px;
 }
-.authors ul {
-  color: #FFF;
-  font-family:'HelveticaNeue', Helvetica;
-  font-size: 5px;
+.authors  ul {
+  font-size: 10px;
 }
 .authors a {
    font-family: "Helvetica Neue";
-   font-size: 10px;
    color: white;
    text-decoration: none;
    text-transform: none;
-   letter-spacing: 1px;
  }
-.authors p {
-  font-family: "Helvetica Neue";
-  font-weight:bolder;
+.authors > p {
+  font-weight: bolder;
   margin-bottom: 7px;
   font-size: 10px;
   color: #FFF;
@@ -40,4 +36,5 @@ footer {
 {
 footer {
     width: auto;
+    justify-content: center;
 }
