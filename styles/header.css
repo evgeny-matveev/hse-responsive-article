@@ -10,6 +10,8 @@ header {
 }
 
 .box {
+  display: flex;
+  flex-direction: row;
   position: relative;
 
   width: 55%;

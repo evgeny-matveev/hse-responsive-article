@@ -1,17 +1,15 @@
 .quotes {
-  padding-left: 25px;
-  padding-right: 24px;
   padding-top: 21px;
+  padding-right: 24px;
+  /* padding-left: 25px; */
 }
 blockquote {
-  font-size: 22px;
-  font-family: AkzidenzGroteskPro;
   margin-top: 25px;
 }
 h3 {
-  font-size: 20px;
-  color: #FF3D21;
   text-transform: uppercase;
+
+  color: #FF3D21;
 }
 ul {
   list-style: disc;
