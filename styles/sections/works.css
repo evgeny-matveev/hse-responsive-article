@@ -23,7 +23,17 @@
 }
 
 .lisitsky > img {
-  width: 200px;
+  width: 320px;
+}
+
+.lisitsky {
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+ grid-template-columns: 320px;
+ grid-template-rows: 238px;
+ grid-gap: 5px;
 }
 
 .works {
