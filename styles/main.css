@@ -25,9 +25,24 @@ p,blockquote {
   flex-direction: column;
   height: 100vh;
 }
+
 .content {
   flex: 1 0 auto;
 }
+
 body {
   height: 100%;
+}
+
+li, span {
+  font-size: 15px;
+  font-family: Roboto;
+}
+
+span {
+  font-weight: 400;
+}
+
+li {
+  font-weight: 200;
 }
