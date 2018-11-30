@@ -2,6 +2,7 @@ footer {
   width: 320px;
   height: 100px;
   background-color: black;
+  display: flex;
 }
 .footer > a {
   text-decoration: none;
@@ -16,7 +17,7 @@ footer {
   margin-top: 10px;
   margin-right: 20px;
 }
-.authors ul {
+.authors > ul {
   color: #FFF;
   font-family:'HelveticaNeue', Helvetica;
   font-size: 5px;
