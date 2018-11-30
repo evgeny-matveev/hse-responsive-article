@@ -11,10 +11,13 @@ h1 {
   font-size: 64px;
 }
 
-h2 {
+h2, h3  {
   font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
   font-size: 20px;
 }
+
+h3 
+
 
 p,blockquote {
   font-family: "Roboto-Light", sans-serif;
@@ -23,6 +26,7 @@ p,blockquote {
 .wrapper {
   display: flex;
   flex-direction: column;
+
   height: 100vh;
 }
 .content {
