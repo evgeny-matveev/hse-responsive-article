@@ -31,3 +31,18 @@
  }
 
 }
+
+@media (min-width: 1440px) {
+
+   .paragraph2 h1 {
+     margin-left: 44vh;
+
+font-size: 45px;
+   }
+  .paragraph2 p {
+    width: 173vh;
+    padding-left: 45vh;
+
+    text-align: justify;
+  }
+}
