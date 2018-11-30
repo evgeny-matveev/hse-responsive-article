@@ -17,6 +17,12 @@
   line-height: 19px;
 }
 
+@media (min-width: 768px) {
+  .paragraph2 h1 {
+    font-size: 45px;
+  }
+
+}
  @media(min-width: 1024px) {
  .paragraph2 p {
    width: 138vh;
@@ -37,7 +43,7 @@
    .paragraph2 h1 {
      margin-left: 44vh;
 
-font-size: 45px;
+   font-size: 45px;
    }
   .paragraph2 p {
     width: 173vh;
