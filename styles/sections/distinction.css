@@ -1,0 +1,16 @@
+
+.title   {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  }
+.figure {
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+}
+
+.title-inner {
+  margin-left: 2%;
+}
