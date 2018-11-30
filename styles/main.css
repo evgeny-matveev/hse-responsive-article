@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 h1, h2, p {
   color: #000;
 }
@@ -16,4 +19,15 @@ h2 {
 p,blockquote {
   font-family: "Roboto-Light", sans-serif;
   font-size: 13px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+body {
+  height: 100%;
 }
