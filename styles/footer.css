@@ -16,12 +16,12 @@ footer {
   margin-top: 10px;
   margin-right: 20px;
 }
-.authors > ul {
+.authors ul {
   color: #FFF;
   font-family:'HelveticaNeue', Helvetica;
   font-size: 5px;
 }
-.authors > a {
+.authors a {
    font-family: "Helvetica Neue";
    font-size: 10px;
    color: white;
