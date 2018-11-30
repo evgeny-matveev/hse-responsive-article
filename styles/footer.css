@@ -27,21 +27,18 @@ footer {
 .authors a {
    text-decoration: none;
    text-transform: none;
-
+   font-weight: bold;
    color: white;
-
+   line-height: 13px;
    font-family: "Helvetica Neue";
  }
 .authors > p {
-  margin-bottom: 7px;
 
-  text-align: center;
-
+  font-weight: lighter;
   color: #FFF;
 
   font-family: "Helvetica Neue";
   font-size: 10px;
-  font-weight: bolder;
 }
 @media all and (min-width: 500px)
 {
@@ -54,12 +51,16 @@ footer {
 .authors {
     width: 700px;
 }
+.authors p {
+  font-weight: lighter;
+  text-align: center;
+}
 .authors ul {
   display: flex;
   flex-direction: row;
-
-  margin-top: 20px;
-
+  line-height: 18px;
+  margin-top: 15px;
+  font-weight: bold;
   text-align: center;
 
   justify-content: space-between;
