@@ -17,29 +17,26 @@ footer {
   margin-top: 10px;
   margin-right: 20px;
 }
-.authors > ul {
-  color: #FFF;
-  decoration: none;
-  font-family:'HelveticaNeue', Helvetica;
-  font-size: 5px;
+.authors  ul {
+  font-size: 10px;
 }
 a {
    font-family: "Helvetica Neue";
-   font-size: 10px;
    color: white;
    text-decoration: none;
    text-transform: none;
-   letter-spacing: 1px;
  }
 .authors > p {
   font-weight: bolder;
   margin-bottom: 7px;
   font-size: 10px;
   color: #FFF;
+  font-family: "Helvetica Neue";
 }
 @media all and (min-width: 320px)
 {
   footer {
     justify-content: center;
     width: auto;
+    justify-content: center;
 }
