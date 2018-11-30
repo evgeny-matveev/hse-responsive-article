@@ -22,6 +22,10 @@
   width: 150px;
 }
 
+.lisitsky > img {
+  width: 200px;
+}
+
 .works {
  display: grid;
 
