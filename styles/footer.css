@@ -33,7 +33,7 @@ footer {
   color: #FFF;
   font-family: "Helvetica Neue";
 }
-@media all and (min-width: 320px)
+@media all and (min-width: 500px)
 {
 footer {
     width: auto;
