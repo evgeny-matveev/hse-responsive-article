@@ -79,6 +79,20 @@
 }
 
 @media (min-width: 768px) {
+  .lisitsky > img {
+    width: 384px;
+  }
+
+  .lisitsky {
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+   grid-template-columns: 384px 384px;
+   grid-template-rows: 286px;
+   grid-gap: 5px;
+  }
+
   .works {
    display: grid;
 
