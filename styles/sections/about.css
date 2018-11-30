@@ -2,15 +2,27 @@
   display: flex;
   flex-direction: column;
 
-  text-align: center;
-
   justify-content: center;
 }
 
-h1 {
-  padding-top: 35px;
+ h1 {
+  padding-top: 15px;
+  padding-left: 10px;
 
-  font-family: "New Old";
-  font-size: 28px;
-  line-height: 25px;
+  color: #B4332C;
+
+  font-family: "New Old Ultra Expanded";
+  font-size: 22px;
+  line-height: 30px;
+}
+
+ .paragraph1 p {
+  padding-top: 11px;
+  padding-left: 10px;
+
+  text-align: left;
+
+  font-family: "Helvetica Neue";
+  font-size: 13px;
+  line-height: 19px;
 }
