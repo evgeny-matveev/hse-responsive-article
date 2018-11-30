@@ -34,19 +34,16 @@ h1 {
  }
 
 .about h1 {
-   margin-top: -151px;
-   padding-left: 335px;
+   margin-top: -279px;
+   padding-left: 389px;
 
    color: #B4332C;
 
    font-family: "New Old Ultra Expanded";
-   font-size: 52px;
+   font-size: 45px;
    line-height: 58px;
 }
 
- h1 {
-   font-size: 40px;
-}
 }
 
  @media (min-width: 1024px) {
