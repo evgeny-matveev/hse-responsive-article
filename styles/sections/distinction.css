@@ -19,8 +19,15 @@
 
  @media(min-width: 1024px) {
  .paragraph2 p {
-   width: 179vh;
+   width: 138vh;
+   padding-left: 130px;
 
    text-align: justify;
   }
+ .paragraph2 h1 {
+   margin-left: 22vh;
+
+   font-size: 37px;
+ }
+
 }

@@ -1,12 +1,12 @@
 footer {
-  display: flex;
-
   width: 320px;
   height: 100px;
-
   background-color: black;
 }
-
+.footer > a {
+  text-decoration: none;
+  color: white;
+}
 .logo-for-footer > img {
   height: 100px;
   margin-right: 20px;
@@ -16,13 +16,12 @@ footer {
   margin-top: 10px;
   margin-right: 20px;
 }
-.authors > ul {
+.authors ul {
   color: #FFF;
-  decoration: none;
   font-family:'HelveticaNeue', Helvetica;
   font-size: 5px;
 }
-.authors > a {
+.authors a {
    font-family: "Helvetica Neue";
    font-size: 10px;
    color: white;
@@ -30,7 +29,8 @@ footer {
    text-transform: none;
    letter-spacing: 1px;
  }
-.authors > p {
+.authors p {
+  font-family: "Helvetica Neue";
   font-weight:bolder;
   margin-bottom: 7px;
   font-size: 10px;
@@ -38,7 +38,6 @@ footer {
 }
 @media all and (min-width: 320px)
 {
-  footer {
-    justify-content: center;
+footer {
     width: auto;
 }
