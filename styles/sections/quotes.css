@@ -1,15 +1,23 @@
+section.quotes {
+  margin-bottom: 20px;
+}
 .quotes {
   padding-top: 21px;
   padding-right: 24px;
 }
 blockquote {
   margin-top: 25px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
 }
 h3 {
   text-transform: uppercase;
 
   color: #FF3D21;
 }
-ul {
+section.quotes ul {
   list-style: disc;
+  margin-left: 50px;
 }

@@ -1,3 +1,11 @@
+body {
+  height: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 h1, h2, p {
   color: #000;
 }
@@ -11,9 +19,6 @@ h2, h3  {
   font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
   font-size: 20px;
 }
-
-h3
-
 
 p,blockquote {
   font-family: "Roboto-Light", sans-serif;
@@ -29,10 +34,3 @@ p,blockquote {
 .content {
   flex: 1 0 auto;
 } */
-body {
-  height: 100%;
-}
-main {
-  display: flex;
-  flex-direction: column;
-}
