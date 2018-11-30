@@ -12,7 +12,10 @@ h2, h3  {
   font-size: 20px;
 }
 
-p,blockquote,a {
+h3
+
+
+p,blockquote {
   font-family: "Roboto-Light", sans-serif;
   font-size: 13px;
 }
@@ -32,6 +35,7 @@ header .box .logo {
 
   height: 100vh;
 }
+
 .content {
   flex: 1 0 auto;
 } */

@@ -14,3 +14,10 @@
 .title-inner {
   margin-left: 2%;
 }
+
+.photo {
+  margin-top: 17px;
+  width:271px;
+  height: 163px;
+  background-color: #C4C4C4;
+}
