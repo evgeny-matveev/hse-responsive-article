@@ -23,7 +23,7 @@ section.more-info ul:before {
   margin-top: 10px;
   content: "";
   width: 2px;
-  height: 180px;
+  height: 60vh;
   background-color: #000;
   position: absolute;
   /* top: 4px; */
