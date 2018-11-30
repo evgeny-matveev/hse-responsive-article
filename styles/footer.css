@@ -5,6 +5,7 @@ footer {
   height: 100px;
 
   background-color: black;
+  display: flex;
 }
 
 .logo-for-footer > img {
@@ -30,8 +31,8 @@ a {
    text-transform: none;
    letter-spacing: 1px;
  }
-P {
-  font-weight:bolder;
+.authors > p {
+  font-weight: bolder;
   margin-bottom: 7px;
   font-size: 10px;
   color: #FFF;
