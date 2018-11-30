@@ -1,7 +1,8 @@
+body {
+  height: 100%;
+}
 footer {
-position: fixed;
-
-display: flex;
+flex: 0 0 auto;
 
 width: 100%;
 height: 50px;
@@ -10,7 +11,7 @@ background-color: #000;
 }
 
 .boxfooter {
-position: relative;
+/* position: relative; */
 
 width: 45%;
 height: 50px;
