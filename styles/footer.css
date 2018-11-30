@@ -30,7 +30,7 @@ a {
    text-transform: none;
    letter-spacing: 1px;
  }
-P {
+.authors > P {
   font-weight:bolder;
   margin-bottom: 7px;
   font-size: 10px;
