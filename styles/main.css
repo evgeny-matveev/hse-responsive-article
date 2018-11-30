@@ -2,3 +2,18 @@
 h1, h2, p {
   color: #000;
 }
+
+h1 {
+  font-family: "rodchenkoctt", sans-serif;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 20px;
+}
+
+p,blockquote {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 13px;
+}
