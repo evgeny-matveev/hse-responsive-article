@@ -22,7 +22,7 @@ footer {
   font-family:'HelveticaNeue', Helvetica;
   font-size: 5px;
 }
-a {
+.authors > a {
    font-family: "Helvetica Neue";
    font-size: 10px;
    color: white;
@@ -30,7 +30,7 @@ a {
    text-transform: none;
    letter-spacing: 1px;
  }
-.authors > P {
+.authors > p {
   font-weight:bolder;
   margin-bottom: 7px;
   font-size: 10px;
