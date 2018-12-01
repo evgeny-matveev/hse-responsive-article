@@ -1,7 +1,8 @@
-.slider {
-  margin: 20px auto;
-}
+
 .slider img {
-  max-width: 50vw;
+  max-width: 100vw;
 }
 
+.slider {
+  margin: 0 10px 0 10px;
+}

@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html,body {
   height: 100%;
   margin: 0;
@@ -23,9 +26,9 @@ main h2, h3  {
 }
 
 
-main p,blockquote {
+main p, blockquote, li {
   font-family: "Roboto-Light", sans-serif;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 header a {
@@ -37,13 +40,3 @@ header .box .logo {
   font-family: "rodchenkoctt", sans-serif;
   font-size: 18px;
 }
-/* .wrapper {
-  display: flex;
-  flex-direction: column;
-
-  height: 100vh;
-}
-
-.content {
-  flex: 1 0 auto;
-} */

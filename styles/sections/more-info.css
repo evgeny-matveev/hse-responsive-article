@@ -6,6 +6,7 @@ section.more-info ul {
   line-height: 25px;
   margin-bottom: 20px;
 }
+
 .title {
   margin-bottom: 20px;
 }
@@ -19,11 +20,21 @@ section.more-info ul {
   margin-left: 50px;
 }
 
+
+section.more-info ul {
+margin-left: 50px;
+
+list-style: disc;
+}
+section.more-info .title-inner {
+  margin-top: 15px;
+}
+
 @media {min-width:768 px;{
 
 }
 
 @media {min-width:320 px;{
   font-size: 100px;
-
+  font-weight: 200;
 }
