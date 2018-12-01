@@ -1,11 +1,14 @@
 header {
   display: flex;
-  flex-direction: row-reverse;
-  background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
-  padding: 14px 15px;
-  font-family: "Roboto";
-  justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  padding: 14px 15px;
+
+  background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
+
+  font-family: "Roboto";
 }
 div.logo img {
   width: 25px;
@@ -19,9 +22,11 @@ header ul {
 
 header li a,
 header a {
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
+
   color: #fff;
+
   font-size: 15px;
 }
 
@@ -32,6 +37,7 @@ header ul li {
 @media all and (min-width:768px) {
   header ul li {
     display: block;
+
     margin-right: 38px;
   }
 
@@ -40,8 +46,8 @@ header ul li {
   }
 
   .menu {
-    margin-left: 90px;
     margin-right: 40px;
+    margin-left: 90px;
   }
 
   header ul {
