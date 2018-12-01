@@ -21,3 +21,9 @@
   height: 163px;
   background-color: #C4C4C4;
 }
+section.distinction p {
+  width: 70%;
+  margin-left: 45px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
