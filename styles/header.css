@@ -1,4 +1,4 @@
-header {
+/* header {
   position: fixed;
   width: 100%;
   display: flex;
@@ -59,4 +59,66 @@ header ul li {
 
   header ul li:nth-child(4) {
     margin: 0;
+  }
+  header ul li a:before {
+    border: 2px solid #FF3D21;
+    padding: 5px;
+  } */
+  header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
+    height: 40px;
+    padding: 14px 15px;
+    font-family: "Roboto";
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div.logo img{
+    width: 25px;
+    height: 25px;
+  }
+  header ul {
+    display: flex;
+    order: -1;
+  }
+
+  header li a,
+  header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  header ul li {
+    display: none;
+  }
+
+  @media all and (min-width:768px) {
+    header ul li {
+      display: block;
+      margin-right: 38px;
+    }
+    header>a {
+      display: none;
+    }
+    .menu {
+      margin-left: 90px;
+      margin-right: 40px;
+    }
+
+    header ul {
+      order: 0;
+    }
+    header ul li:nth-child(4) {
+      margin: 0;
+    }
+    header ul li a:hover {
+      border: 2px solid #FF3D21;
+      padding: 5px;
+    }
   }
