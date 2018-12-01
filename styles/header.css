@@ -10,10 +10,7 @@
     width: 100%;
     height: 55px;
     padding: 14px 15px;
-
     background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
-    background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
-
     font-family: "Roboto";
   }
 
@@ -40,12 +37,12 @@
   header ul li {
     display: none;
   }
-
+/*
   header a:nth-last-child(5) {
     display: flex;
     justify-content: flex-end;
 
-  }
+  } */
 
   @media all and (min-width:768px) {
     header ul li {
