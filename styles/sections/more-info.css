@@ -19,3 +19,6 @@ margin-left: 50px;
 
 list-style: disc;
 }
+section.more-info .title-inner {
+  margin-top: 15px;
+}
