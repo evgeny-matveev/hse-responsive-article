@@ -33,15 +33,24 @@ main h2, h3  {
 
 
 @media all and (min-width:768px) {
+  .about {
+    height: 100vh;
+  }
+
   article {
     margin: 152px auto;
   }
+  
   main h1 {
     font-size: 160px;
   }
 }
 
 @media all and (min-width:1024px) {
+  .about {
+    height: 100vh;
+  }
+  
   article {
     margin: 132px auto;
   }

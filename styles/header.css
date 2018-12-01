@@ -4,12 +4,14 @@ header {
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   width: 100%;
   height: 55px;
-  padding: 14px 15px;
+  padding: 14px 0px 14px 15px;
 
-  background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);  font-family: "Roboto";
+  background-color: #000;
+  /* background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);   */
   }
 
 div.logo img{
@@ -17,6 +19,7 @@ div.logo img{
   height: 25px;
   margin-right: 20px;
   }
+
 header ul {
   display: flex;
   order: -1;
@@ -35,12 +38,26 @@ header a {
 header ul li {
   display: none;
 }
+
 header div.menu {
   display: flex;
   visibility: inherit;
+  justify-content: flex-end;
+
+  margin-top: -1px;
+  padding: 20px 50px;
+
+  background-color: #FF3D21;
 }
 
+
 @media all and (min-width:768px) {
+
+  header .nav {
+    padding: 19.4px 90px;
+
+    background-color: #FF3D21;
+  }
   header ul li {
     display: block;
 
@@ -55,11 +72,16 @@ header div.menu {
     order: 0;
   }
   header ul li:nth-child(4) {
-    margin: 0; 
+    margin: 0;
   }
   header ul li a:hover {
     padding: 5px;
 
-    border: 2px solid #FF3D21; 
+    border: 2px solid #000;
+  }
+
+  header div.menu {
+    display: none;
   }
 }
+      
