@@ -1,23 +1,33 @@
-/* section.more-info ul {
+section.more-info ul {
 margin-left: 50px;
-} */
+}
 .title {
 margin-bottom: 20px;
 }
 
-.more-info{
-  font-family: "rodchenkoctt"
-  font-size: 25px;
-  line-height: 40px;
-  font-weight: bold;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  color: #000000;
+section.more-info li,span {
+font-family: Roboto;
+font-size: 15px;
+line-height: 40px;
 }
 
+section.more-info span {
+font-weight: 400;
+}
 
+section.more-info li {
+font-weight: 200;
+}
 
-.border:hover {
-  box-shadow: inset 0 0 0 23px #53ea93;
+section.more-info ul:before {
+margin-top: 10px;
+content: "";
+width: 2px;
+height: 180px;
+background-color: #000;
+position: absolute;
+/* top: 4px; */
+
+left: 40px;
+
 }
