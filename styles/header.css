@@ -66,15 +66,20 @@ header ul li {
   } */
   header {
     position: fixed;
-    width: 100vw;
+    z-index: 1;
+
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
-    background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
+    justify-content: space-between;
+
+    width: 100vw;
     height: 40px;
     padding: 14px 15px;
+
+    background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
+
     font-family: "Roboto";
-    justify-content: space-between;
-    align-items: center;
   }
 
   div.logo img{
@@ -88,9 +93,11 @@ header ul li {
 
   header li a,
   header a {
-    text-transform: uppercase;
     text-decoration: none;
+    text-transform: uppercase;
+
     color: #fff;
+
     font-size: 15px;
   }
 
@@ -101,14 +108,15 @@ header ul li {
   @media all and (min-width:768px) {
     header ul li {
       display: block;
+
       margin-right: 38px;
     }
     header>a {
       display: none;
     }
     .menu {
-      margin-left: 90px;
       margin-right: 40px;
+      margin-left: 90px;
     }
 
     header ul {
@@ -118,7 +126,8 @@ header ul li {
       margin: 0;
     }
     header ul li a:hover {
-      border: 2px solid #FF3D21;
       padding: 5px;
+
+      border: 2px solid #FF3D21;
     }
   }
