@@ -17,10 +17,10 @@
         <img src="images/Logo_red_2.png">
       </div>
       <ul>
-        <li><a href="#">Об авторе</a></li>
-        <li><a href="#">Черты</a></li>
-        <li><a href="#">Цитаты</a></li>
-        <li><a href="#">Почитать</a></li>
+        <li><a href="#s1">Об авторе</a></li>
+        <li><a href="#s2">Искусство</a></li>
+        <li><a href="#s3">Цитаты</a></li>
+        <li><a href="#s4">Почитать</a></li>
       </ul>
     </header>
 
@@ -35,7 +35,8 @@
       </section>
 
       <!-- яна -->
-      <section class="distinction">
+
+      <section class="distinction" id="s1">
         <div class="title">
           <div class="figure">
           </div>
@@ -44,11 +45,11 @@
       </section>
 
       <!-- катя с -->
-      <section class="works">
+      <section class="works" id="s2">
         <div class="title">
           <div class="figure">
           </div>
-          <h3 class="title-inner">Работы</h3>
+          <h3 class="title-inner">Искусство</h3>
         </div>
         <div class="slider">
           <div>
@@ -83,7 +84,7 @@
       </section>
 
       <!-- катя к -->
-      <section class="quotes">
+      <section class="quotes" id="s3">
         <div class="title">
           <div class="figure">
           </div>
@@ -110,7 +111,7 @@
       </section>
 
       <!-- Мэри -->
-      <section class="more-info">
+      <section class="more-info" id="s4">
           <div class="title">
             <div class="figure">
             </div>
@@ -163,6 +164,20 @@ $('.slider').slick({
 
         });
 </script>
+  <script type="text/javascript">
+  $(function() {
+  $('.sidebar a').each(function() {
+    $(this).on('click', function(e) {
+      e.preventDefault();
+      var scrollTo = $(this).attr('href');
+      var whitespace = scrollTo == '#s1' ? 70 : 30
+      $('html,body').animate({
+        scrollTop: $(scrollTo).offset().top - whitespace
+      }, 1000);
+    });
+  });
+  });
+  </script>
 </div>
 </body>
 </html>
