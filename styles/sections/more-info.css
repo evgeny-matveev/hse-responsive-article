@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 62px;
 
   font-family: Roboto, sans-serif;
@@ -70,9 +70,14 @@
     margin-bottom: 20px;
   }
   .more-info a.button  {
+    font-weight: 600;
     max-width: 420px;
     padding: 10px 20vw;
   }
+  .more-info ul (
+    font-size: 20px;
+    line-height: 14px;
+    )
 }
 @media (min-width: 1024px) {
 }
