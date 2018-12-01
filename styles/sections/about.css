@@ -5,21 +5,10 @@
   justify-content: center;
 }
 
-h1 {
-  padding-top: 15px;
-  padding-left: 10px;
-
-  color: #B4332C;
-
-  font-family: "New Old Ultra Expanded";
-  font-size: 22px;
-  line-height: 34px;
-}
-
 .paragraph1 p {
   padding-top: 11px;
-  padding-left: 10px;
   padding-right: 20px;
+  padding-left: 10px;
 
   text-align: left;
 
@@ -41,14 +30,6 @@ h1 {
   .paragraph1 p {
    }
 
-  .about h1 {
-    color: #B4332C;
-
-    font-family: "New Old Ultra Expanded";
-    font-size: 40px;
-    line-height: 45px;
-   }
-
    .lisitsky > img {
      width: 50%;
    }
@@ -59,14 +40,6 @@ h1 {
     display: flex;
     flex-direction: row;
   }
-
-.about h1 {
-   color: #B4332C;
-
-   font-family: "New Old Ultra Expanded";
-   font-size: 45px;
-   line-height: 58px;
- }
 
 .paragraph1 p {
    text-align: justify;
@@ -83,14 +56,6 @@ h1 {
 
 
 @media (min-width: 1440px) {
-
-.about h1 {
-    color: #B4332C;
-
-    font-family: "New Old Ultra Expanded";
-    font-size: 51px;
-    line-height: 58px;
- }
 
  .paragraph1 p {
     width: 700px;

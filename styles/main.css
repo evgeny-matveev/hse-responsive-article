@@ -1,0 +1,28 @@
+h1 {
+  padding-top: 15px;
+  padding-left: 10px;
+
+  color: #B4332C;
+
+  font-family: "New Old Ultra Expanded";
+  font-size: 22px;
+  line-height: 34px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 50px;
+  }
+}
