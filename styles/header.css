@@ -1,79 +1,12 @@
-/* header {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-
-  padding: 14px 15px;
-
-  background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
-
-  font-family: "Roboto";
-}
-div.logo img {
-  width: 25px;
-  height: 25px;
-}
-
-header ul {
-  display: flex;
-  order: -1;
-}
-
-header li a,
-header a {
-  text-decoration: none;
-  text-transform: uppercase;
-
-  color: #fff;
-
-  font-size: 15px;
-}
-
-header ul li {
-  display: none;
-}
-
-
-@media all and (min-width:768px) {
-  header ul li {
-    display: block;
-
-    margin-right: 38px;
-  }
-
-  header>a {
-    display: none;
-  }
-
-  .menu {
-    margin-right: 40px;
-    margin-left: 90px;
-  }
-
-  header ul {
-    order: 0;
-  }
-
-  header ul li:nth-child(4) {
-    margin: 0;
-  }
-  header ul li a:before {
-    border: 2px solid #FF3D21;
-    padding: 5px;
-  } */
   header {
     position: fixed;
     width: 100vw;
     display: flex;
-    flex-direction: row-reverse;
     background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
-    height: 40px;
+    height: 55px;
     padding: 14px 15px;
     font-family: "Roboto";
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
   }
 
@@ -96,6 +29,12 @@ header ul li {
 
   header ul li {
     display: none;
+  }
+
+  header a:nth-last-child(5) {
+    display: flex;
+    justify-content: flex-end;
+
   }
 
   @media all and (min-width:768px) {
