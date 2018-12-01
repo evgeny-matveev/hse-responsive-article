@@ -36,6 +36,7 @@ header ul li {
   display: none;
 }
 
+
 @media all and (min-width:768px) {
   header ul li {
     display: block;
