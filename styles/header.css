@@ -1,6 +1,6 @@
   header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     display: flex;
     background-image: linear-gradient(to right, #000 75%, #FF3D21 25%);
     height: 55px;
