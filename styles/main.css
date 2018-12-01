@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, p {
+  color: #000;
+}
+
+h1 {
+  font-family: "rodchenkoctt", sans-serif;
+  font-size: 64px;
+}
+
+h2, h3  {
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 20px;
+}
+
+h4{
+  font-family: "rodchenkoctt", sans-serif;
+  font-size: 35px;
+}
+
+
+p,blockquote {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 13px;
+}
+
+header a {
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 16px;
+}
+
+header .box .logo {
+  font-family: "rodchenkoctt", sans-serif;
+  font-size: 18px;
+}
+/* .wrapper {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.content {
+  flex: 1 0 auto;
+} */

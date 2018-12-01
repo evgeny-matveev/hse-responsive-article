@@ -1,0 +1,26 @@
+.about {
+  overflow-x: hidden;
+
+  width: 100vw;
+  height: 250px;
+
+  background-color: #C4C4C4;
+  margin-bottom: 18px;
+}
+article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+h1 {
+  margin-top: 100px;
+  margin-bottom: 5px;
+
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}

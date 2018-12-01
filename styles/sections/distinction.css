@@ -1,0 +1,23 @@
+
+.title   {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  }
+.figure {
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+}
+
+.title-inner {
+  margin-left: 2%;
+}
+
+.photo {
+  margin-top: 17px;
+  width:271px;
+  height: 163px;
+  background-color: #C4C4C4;
+}

@@ -1,1 +1,23 @@
+/* section.more-info ul {
+margin-left: 50px;
+} */
+.title {
+margin-bottom: 20px;
+}
 
+.more-info{
+  font-family: "rodchenkoctt"
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: #000000;
+}
+
+
+
+.border:hover {
+  box-shadow: inset 0 0 0 23px #53ea93;
+}
