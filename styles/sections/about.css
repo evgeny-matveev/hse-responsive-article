@@ -65,4 +65,12 @@
     font-family: "Helvetica Neue";
     font-size: 13px;
   }
+
+  .lisitsky > img {
+    width: 50vw;
+  }
+
+  .lisitsky {
+    margin-left: 0;
+  }
 }
