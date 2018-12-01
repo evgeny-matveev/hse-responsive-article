@@ -1,33 +1,20 @@
 section.more-info ul {
-margin-left: 50px;
+margin-top: 25px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 25px;
+margin-bottom: 25px;
 }
 .title {
 margin-bottom: 20px;
-}
-
-section.more-info li,span {
-font-family: Roboto;
-font-size: 15px;
-line-height: 40px;
-}
-
-section.more-info span {
-font-weight: 400;
 }
 
 section.more-info li {
 font-weight: 200;
 }
 
-section.more-info ul:before {
-margin-top: 10px;
-content: "";
-width: 2px;
-height: 180px;
-background-color: #000;
-position: absolute;
-/* top: 4px; */
-
-left: 40px;
-
+section.more-info ul {
+list-style: disc;
+margin-left: 50px;
 }
