@@ -1,8 +1,8 @@
 footer {
   display: flex;
 
-  width: 500px;
-  height: 100px;
+  width: 320px;
+  height: 110px;
 
   background-color: black;
 }
@@ -40,7 +40,7 @@ footer {
   font-family: "Helvetica Neue";
   font-size: 10px;
 }
-@media all and (min-width: 500px)
+@media all and (min-width: 320px)
 {
 footer {
     width: auto;
