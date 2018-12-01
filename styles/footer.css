@@ -42,7 +42,8 @@ footer {
 }
 @media all and (min-width: 320px)
 {
-footer {
+  footer {
+    justify-content: center;
     width: auto;
     justify-content: center;
 }
