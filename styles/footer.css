@@ -1,6 +1,10 @@
-/* body {
-  height: 100vh;
-} */
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  min-height: calc(100vh - 80px);
+}
 footer {
   display: flex;
   padding-left: 10px;
@@ -19,7 +23,6 @@ footer {
   align-items: center;
   padding-left: 10px;
   flex-direction: row;
-  /* position: relative; */
   width: 45%;
   height: 50px;
 
