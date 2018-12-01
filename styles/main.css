@@ -9,6 +9,10 @@ h1 {
   line-height: 34px;
 }
 
+.quotes h1 {
+  padding-bottom: 11px;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 36px;
