@@ -44,6 +44,10 @@ main h2, h3  {
   main h1 {
     font-size: 160px;
   }
+  
+  main h2, h3  {
+    font-size: 40px;
+  }
 }
 
 @media all and (min-width:1024px) {
