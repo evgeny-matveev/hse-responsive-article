@@ -2,7 +2,6 @@
   overflow-x: hidden;
 
   width: 100vw;
-  margin-bottom: 18px;
 
   background: linear-gradient(to right, rgba(0,0,0,0), teal), linear-gradient(to right, rgba(255,200,20,.3), rgba(255,100,30,.2)), linear-gradient(to top right, red, rgba(0,0,0,0)), radial-gradient(closest-corner at 20% 80%, blue, red);
   background-attachment: fixed;

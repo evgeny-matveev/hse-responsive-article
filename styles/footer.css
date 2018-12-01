@@ -1,31 +1,40 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 .content {
   min-height: calc(100vh - 80px);
 }
 footer {
   display: flex;
-  padding-left: 10px;
-  justify-content: space-between;
   align-items: center;
-  /* width: 100%; */
+  justify-content: space-between;
+
   height: 50px;
+
+  text-transform: uppercase;
+
   background-color: #000;
 }
-.boxfooter {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 10px;
-  flex-direction: row;
-  width: 45%;
-  height: 50px;
+
+footer a {
+  text-decoration: none;
+
+  color: #fff;
+
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 16px;
+  
+}
+
+footer .inst {
+  margin-top: -1px;
+  padding: 16.5px 50px;
 
   background-color: #FF3D21;
 }
-a {
-  color: #fff;
-  text-decoration: none;
+
+footer .mess {
+  padding-left: 50px;
+} 
+
+
+footer .mess a{
+  padding-right: 40px;
 }

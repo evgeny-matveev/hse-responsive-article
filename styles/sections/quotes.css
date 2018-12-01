@@ -1,27 +1,34 @@
-section.quotes {
-  margin-bottom: 20px;
-}
 .quotes {
+  margin-bottom: 30px;
   padding-top: 21px;
   padding-right: 24px;
 }
-blockquote {
+
+.quotes blockquote {
   margin-top: 25px;
 
   line-height: 25px;
 }
-h3 {
+
+.quotes h3 {
   text-transform: uppercase;
 
   color: #FF3D21;
+  color: #FF3D21;
+
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 25px;
 }
-section.quotes ul {
+
+.quotes ul {
   margin-left: 50px;
 
   list-style: disc;
 }
 
-li {
+.quotes ul li {
   font-family: "Roboto-Light", sans-serif;
   font-size: 17px;
+  font-weight: 200;
+  line-height: 25px;
 }

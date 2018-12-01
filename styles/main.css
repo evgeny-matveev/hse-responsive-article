@@ -22,13 +22,14 @@ main h1 {
 
 main h2, h3  {
   font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
 main p, blockquote, li {
   font-family: "Roboto-Light", sans-serif;
   font-size: 17px;
+  font-weight: 200;
 }
 
 header a {

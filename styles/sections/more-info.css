@@ -1,10 +1,8 @@
-section.more-info ul {
+.more-info ul {
   margin-top: 25px;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
+  margin-bottom: 40px;
+
   line-height: 25px;
-  margin-bottom: 20px;
 }
 
 .title {
@@ -12,12 +10,15 @@ section.more-info ul {
 }
 
 section.more-info li {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 17px;
   font-weight: 200;
 }
 
 section.more-info ul {
-  list-style: disc;
   margin-left: 50px;
+
+  list-style: disc;
 }
 
 
@@ -26,24 +27,7 @@ margin-left: 50px;
 
 list-style: disc;
 }
+
 section.more-info .title-inner {
-  margin-top: 15px;
-}
-
-@media {min-width:768 px;{
-  display: block;
-  font-family: "Roboto";
-  margin-top: 25px;
-  margin-bottom: 20px;
-  font-size: 15px;
-  font-weight: 200;
-}
-
-@media {min-width:320 px;{
-  display: block;
-  font-family: "Roboto";
-  margin-top: 25px;
-  margin-bottom: 20px;
-  font-size: 15px;
-  font-weight: 200;
+  color: #FF3D21;
 }
