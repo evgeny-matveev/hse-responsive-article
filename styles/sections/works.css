@@ -160,12 +160,32 @@
 
     justify-content: center;
     align-items: center;
-    grid-template-columns: 270px 270px 270px 270px 270px;
+    grid-template-columns: 150px 300px 300px 300px 150px;
     grid-template-rows: 460px 460px 460px 460px;
     grid-gap: 15px;
   }
 
-  .pic1 > img, .pic2 > img, .pic3 > img, .pic4 > img, .pic5 > img, .pic6 > img {
-    width: 270px;
+  .pic1 > a > img {
+    width: 300px;
+  }
+
+  .pic2 > a > img {
+    width: 300px;
+  }
+
+  .pic3 > a > img {
+    width: 300px;
+  }
+
+  .pic4 > a > img {
+    width: 300px;
+  }
+
+  .pic5 > a > img {
+    width: 300px;
+  }
+
+  .pic6 > a > img {
+    width: 300px;
   }
 }
