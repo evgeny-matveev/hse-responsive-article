@@ -1,4 +1,10 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  min-height: calc(100vh - 80px);
+}
 footer {
   display: flex;
   padding-left: 10px;

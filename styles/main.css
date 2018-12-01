@@ -8,21 +8,22 @@ main {
   flex-direction: column;
 }
 
-h1, h2, p {
+main h1, h2, p {
   color: #000;
 }
 
-h1 {
+main h1 {
   font-family: "rodchenkoctt", sans-serif;
   font-size: 64px;
 }
 
-h2, h3  {
+main h2, h3  {
   font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
   font-size: 20px;
 }
 
-p,blockquote {
+
+main p,blockquote {
   font-family: "Roboto-Light", sans-serif;
   font-size: 13px;
 }

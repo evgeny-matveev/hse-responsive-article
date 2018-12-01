@@ -1,32 +1,33 @@
 section.more-info ul {
-  margin-left: 50px;
+margin-left: 50px;
 }
 .title {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 section.more-info li,span {
-  font-family: Roboto;
-  font-size: 15px;
-  line-height: 40px;
+font-family: Roboto;
+font-size: 15px;
+line-height: 40px;
 }
 
 section.more-info span {
-  font-weight: 400;
+font-weight: 400;
 }
 
 section.more-info li {
-  font-weight: 200;
+font-weight: 200;
 }
 
 section.more-info ul:before {
-  margin-top: 10px;
-  content: "";
-  width: 2px;
-  height: 60vh;
-  background-color: #000;
-  position: absolute;
-  /* top: 4px; */
+margin-top: 10px;
+content: "";
+width: 2px;
+height: 180px;
+background-color: #000;
+position: absolute;
+/* top: 4px; */
 
-  left: 40px;
+left: 40px;
+
 }
