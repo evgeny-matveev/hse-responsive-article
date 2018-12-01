@@ -31,10 +31,19 @@ section.more-info .title-inner {
 }
 
 @media {min-width:768 px;{
-
+  display: block;
+  font-family: "Roboto";
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 200;
 }
 
 @media {min-width:320 px;{
-  font-size: 100px;
+  display: block;
+  font-family: "Roboto";
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 15px;
   font-weight: 200;
 }
