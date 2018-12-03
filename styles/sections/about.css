@@ -1,0 +1,40 @@
+.img2 {
+  padding-bottom: 18px;
+}
+
+.about-bio p:first-of-type {
+  padding-top: 27px;
+}
+
+@media (min-width: 768px) {
+
+  .img2 {
+    padding-bottom: 33px;
+  }
+
+  .about-bio #s1 {
+    padding-top: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .img2 {
+    padding-bottom: 45px;
+  }
+
+  .about-bio #s1 {
+    padding-top: 70px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .img2 {
+    padding-bottom: 45px;
+  }
+
+  .about-bio #s1 {
+    padding-top: 70px;
+  }
+}

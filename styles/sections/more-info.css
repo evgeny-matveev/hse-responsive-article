@@ -1,0 +1,96 @@
+.more-info-list a, .more-info-list a:visited {
+  text-decoration: underline;
+
+  color: black;
+}
+
+.more-info p {
+  padding: 27px 0 0;
+
+  font-size: 21px;
+  font-weight: bold;
+
+}
+
+.more-info ul {
+  padding: 27px 0;
+  padding: 45px 0 0;
+
+  font-size: 42px;
+}
+
+.more-info ul {
+  padding: 45px 0;
+
+  line-height: 120%;
+}
+
+.more-info ul li {
+
+  line-height: 120%;
+}
+
+.more-info ul li {
+  width: 292px;
+  padding: 9px 0;
+
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+
+  .more-info ul li {
+    width: 726px;
+    padding: 18px 0;
+
+    font-size: 24px;
+  }
+  .more-info p {
+    font-size: 28px;
+  }
+
+@media (min-width: 1024px) {
+
+  .more-info p {
+    padding: 45px 0 0;
+
+    font-size: 42px;
+    font-weight: bold;
+}
+
+  .more-info ul {
+    padding: 45px 0;
+
+    line-height: 100%;
+  }
+
+  .more-info ul li {
+    width: 925px;
+    padding: 15px 0;
+
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .more-info p {
+    padding: 70px 0 0;
+
+    font-size: 42px;
+    font-weight: bold;
+}
+
+  .more-info ul {
+    padding: 45px 0;
+
+    line-height: 100%;
+  }
+
+  .more-info ul li {
+    width: 1330px;
+    padding: 15px 0;
+
+    font-size: 36px;
+  }
+}

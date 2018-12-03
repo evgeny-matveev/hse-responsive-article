@@ -1,0 +1,54 @@
+.quotes-content {
+  padding: 27px 0 0;
+
+  color: white;
+  background-color: black;
+}
+
+.quotes-content p {
+  width: 203px;
+  margin-right: 83px;
+
+  font-style: italic;
+}
+
+.quotes-content p:last-of-type {
+  margin-right: -239px;
+}
+
+@media (min-width: 768px) {
+  .quotes-content p {
+    width: 614px;
+    margin-right: 110px;
+  }
+
+  .quotes-content p:last-of-type {
+    margin-right: -1026px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes-content p:last-of-type {
+    margin-right: -1300px;
+  }
+
+  .quotes-content p {
+    width: 762px;
+    margin-right: 188px;
+
+    font-style: italic;
+  }
+}
+
+@media (min-width: 1440px) {
+  .quotes-content p:last-of-type {
+    margin-right: -1810px;
+  }
+
+  .quotes-content p {
+    width: 1005px;
+    margin-right: 320px;
+
+    font-style: italic;
+  }
+}
