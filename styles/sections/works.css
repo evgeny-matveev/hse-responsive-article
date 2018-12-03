@@ -1,0 +1,176 @@
+body {
+  position: relative;
+
+  min-width: 320px;
+
+  background: #FFFFFF;
+  font-family: 'Prata', serif;
+}
+
+h2 {
+  margin-bottom: 35px;
+
+  text-align: center;
+
+
+  font-size: 36px;
+}
+
+.works {
+  overflow: hidden;
+
+  width: 320px;
+}
+
+.works .location {
+  margin-bottom: 35px;
+
+  text-align: center;
+}
+
+.works img {
+  width: 160px;
+}
+
+figcaption {
+  font-size: 24px;
+}
+
+figcaption2 {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  body {
+    position: relative;
+
+    min-width: 768px;
+
+    background: #FFFFFF;
+    font-family: 'Prata', serif;
+  }
+
+  h2 {
+    margin-bottom: 35px;
+
+    text-align: center;
+
+
+    font-size: 36px;
+  }
+
+  .works {
+    overflow: hidden;
+    column-count: 2;
+
+    width: 768px;
+  }
+
+  .works .location {
+    margin-bottom: 35px;
+
+    text-align: center;
+  }
+
+  .works img {
+    width: 160px;
+  }
+
+  figcaption {
+    font-size: 24px;
+  }
+
+  figcaption2 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    position: relative;
+
+    min-width: 1024px;
+
+    background: #FFFFFF;
+    font-family: 'Prata', serif;
+  }
+
+  h2 {
+    margin-bottom: 35px;
+
+    text-align: center;
+
+
+    font-size: 36px;
+  }
+
+  .works {
+    overflow: hidden;
+    column-count: 3;
+
+    width: 1024px;
+  }
+
+  .works .location {
+    margin-bottom: 35px;
+
+    text-align: center;
+  }
+
+  .works img {
+    width: 160px;
+  }
+
+  figcaption {
+    font-size: 24px;
+  }
+
+  figcaption2 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    position: relative;
+
+    min-width: 1440px;
+
+    background: #FFFFFF;
+    font-family: 'Prata', serif;
+  }
+
+  h2 {
+    margin-bottom: 35px;
+
+    text-align: center;
+
+
+    font-size: 36px;
+  }
+
+  .works {
+    overflow: hidden;
+    column-count: 4;
+
+    width: 1440px;
+  }
+
+  .works .location {
+    margin-bottom: 35px;
+
+    text-align: center;
+  }
+
+  .works img {
+    width: 160px;
+  }
+
+  figcaption {
+    font-size: 24px;
+  }
+
+  figcaption2 {
+    font-size: 14px;
+  }
+}
