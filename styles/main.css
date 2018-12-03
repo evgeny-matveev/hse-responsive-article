@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+* {
+  overflow-x: hidden;
+
+  font-family: 'PT Serif', serif;
+}
+
+.about-bio,
+.distinction-features,
+.works-main,
+.quotes-content,
+.more-info-list {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+h1, h2, h3, p {
+  line-height: 135%;
+}
+
+h2 {
+  padding: 27px 0 27px;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 18px 0 27px;
+
+  font-size: 14px;
+  font-style: italic;
+}
+
+p {
+  width: 292px;
+  padding: 0 0 27px;
+
+  font-size: 18px;
+}
+
+.img2, .img3, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+  width: 100%;
+  padding-bottom: 18px;
+}
+
+@media (min-width: 768px) {
+
+h2 {
+  padding: 66px 0 44px;
+
+  font-size: 28px;
+}
+
+h3 {
+  width: 726px;
+  margin-bottom: 33px;
+  padding: 33px 0 22px;
+
+  border-bottom: 2px;
+  border-bottom-style: solid;
+
+  font-size: 21px;
+  font-style: italic;
+}
+
+p {
+  width: 726px;
+  padding: 0 0 44px;
+
+  font-size: 24px;
+}
+
+.img2, .img3, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+  padding-bottom: 33px;
+}
+}
+
+@media (min-width: 1024px) {
+
+.about-bio,
+.distinction-features,
+.works-main,
+.quotes-content,
+.more-info-list {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+h1, h2, h3, p {
+  line-height: 135%;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 45px 0 45px;
+
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h3 {
+  width: 926px;
+  padding: 30px 0 45px;
+
+  font-size: 32px;
+  font-style: italic;
+}
+
+p {
+  width: 926px;
+  padding: 0 0 45px;
+
+  font-size: 32px;
+}
+
+.img2, .img3, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+  width: 100%;
+  padding-bottom: 45px;
+}
+}
+
+@media (min-width: 1440px) {
+
+h2 {
+  padding: 70 0 46px;
+
+  font-size: 42px;
+}
+
+h3 {
+  padding: 35px 0 23px;
+
+  font-size: 35px;
+  font-style: italic;
+}
+
+p {
+  width: 1330px;
+  padding: 0 0 48px;
+
+  font-size: 36px;
+}
+
+.img2, .img3, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+  padding-bottom: 46px;
+}
+}
