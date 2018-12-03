@@ -46,7 +46,7 @@
     font-size: 24px;
   }
   .more-info p {
-    font-size: 24px;
+    font-size: 28px;
   }
 
 @media (min-width: 1024px) {
@@ -56,16 +56,39 @@
 
     font-size: 42px;
     font-weight: bold;
-  }
+}
 
   .more-info ul {
     padding: 45px 0;
 
-    line-height: 120%;
+    line-height: 100%;
   }
 
   .more-info ul li {
     width: 925px;
+    padding: 15px 0;
+
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .more-info p {
+    padding: 70px 0 0;
+
+    font-size: 42px;
+    font-weight: bold;
+}
+
+  .more-info ul {
+    padding: 45px 0;
+
+    line-height: 100%;
+  }
+
+  .more-info ul li {
+    width: 1330px;
     padding: 15px 0;
 
     font-size: 36px;

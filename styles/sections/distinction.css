@@ -32,3 +32,14 @@
     margin-right: 1px;
   }
 }
+
+@media (min-width: 1440px) {
+
+  .distinction-features h2 {
+    margin-right: 928px;
+  }
+
+  .distinction-features h3 {
+    margin-right: 400px;
+  }
+}

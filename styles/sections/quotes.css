@@ -39,3 +39,16 @@
     font-style: italic;
   }
 }
+
+@media (min-width: 1440px) {
+  .quotes-content p:last-of-type {
+    margin-right: -1810px;
+  }
+
+  .quotes-content p {
+    width: 1005px;
+    margin-right: 320px;
+
+    font-style: italic;
+  }
+}
