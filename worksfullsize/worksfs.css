@@ -1,15 +1,51 @@
+
+
 .picfs > img {
-  width: 980px;
+  display: flex;
+
+  width: inherit;
 }
 
 .namefs {
-  width: 980px;
+  display: flex;
 
   color: grey;
 
   font-family: "Helvetica Neue";
-  font-size: 34px;
+  font-size: 20px;
 }
+
+@media (min-width: 360px)  {
+  .picfs > img {
+    display: flex;
+
+    width: 360px;
+  }
+}
+@media (min-width: 768px)  {
+  .picfs > img {
+    display: flex;
+
+    width: 768px;
+  }
+}
+
+@media (min-width: 1024px)  {
+  .picfs > img {
+    display: flex;
+
+    width: 768px;
+  }
+}
+
+@media (min-width: 1440px)  {
+  .picfs > img {
+    display: flex;
+
+    width: 768px;
+  }
+}
+
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
