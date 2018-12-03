@@ -43,3 +43,22 @@ footer p {
 a, a:visited {
   text-decoration: none;
 }
+
+
+@media (min-width: 768px) {
+  footer {
+    height: 135px;
+  }
+  footer li {
+    padding: 15px 30px 44px;
+
+    font-size: 21px;
+  }
+
+  footer p {
+    padding: 0 0 33px;
+  }
+  footer img {
+    height: 41px;
+  }
+}

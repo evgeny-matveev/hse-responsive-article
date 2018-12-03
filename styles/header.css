@@ -111,6 +111,24 @@ nav ul img:first-of-type {
     background-image: url(../images/img1.jpg);
     height: 572px;
   }
+
+  nav {
+  justify-content: flex-end;
+  }
+
+  .after-header h1 {
+  margin-top: 420px;
+
+  font-size: 40px;
+  font-weight: 700;
+}
+
+  .after-header p {
+  margin-bottom: -30px;
+
+  font-size: 24px;
+  }
+
 }
 
 @media (min-width: 1024px) {
