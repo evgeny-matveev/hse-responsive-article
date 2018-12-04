@@ -1,20 +1,22 @@
 header ul {
-  height: 58px;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+
+  height: 58px;
 
   background: black;
+
+  justify-content: space-between;
+  align-items: center;
 }
 
 header a {
-  font-family: "Helvetica Neue";
-
-  text-transform: uppercase;
-  color: white;
   text-decoration: none;
+  text-transform: uppercase;
+
+  color: white;
+
+  font-family: "Helvetica Neue";
 }
 
 header a:after {
@@ -30,17 +32,15 @@ header a:after {
 }
 
 .menubutton img {
+  width: 25px;
+  height: 25px;
   padding-right: 7px;
-
-  height: 30px;
-  width: 30px;
 }
 
 header li:nth-of-type(1) img {
-  padding-left: 7px;
-
-  height: 45px;
   width: 61px;
+  height: 45px;
+  padding-left: 7px;
 }
 
 @media (min-width: 768px) {
@@ -58,10 +58,9 @@ header li:nth-of-type(1) img {
   }
 
   header li:nth-of-type(1) img {
-    padding-left: 14px;
-
-    height: 51px;
     width: 70px;
+    height: 51px;
+    padding-left: 14px;
   }
 
   header a {
@@ -80,10 +79,9 @@ header li:nth-of-type(1) img {
   }
 
   header li:nth-of-type(1) img {
-    padding-left: 18px;
-
-    height: 54px;
     width: 74px;
+    height: 54px;
+    padding-left: 18px;
   }
 
   header a {
