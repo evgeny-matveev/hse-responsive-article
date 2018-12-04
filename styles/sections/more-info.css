@@ -1,0 +1,33 @@
+.more-info ul {
+  margin-top: 25px;
+  margin-bottom: 40px;
+
+  line-height: 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+section.more-info li {
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+section.more-info ul {
+  margin-left: 50px;
+
+  list-style: disc;
+}
+
+
+section.more-info ul {
+margin-left: 50px;
+
+list-style: disc;
+}
+
+section.more-info .title-inner {
+  color: #FF3D21;
+}

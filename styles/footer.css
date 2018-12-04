@@ -1,0 +1,40 @@
+.content {
+  min-height: calc(100vh - 80px);
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 50px;
+
+  text-transform: uppercase;
+
+  background-color: #000;
+}
+
+footer a {
+  text-decoration: none;
+
+  color: #fff;
+
+  font-family: "AkzidenzGroteskPro-BoldCn",sans-serif;
+  font-size: 16px;
+  
+}
+
+footer .inst {
+  margin-top: -1px;
+  padding: 16.5px 50px;
+
+  background-color: #FF3D21;
+}
+
+footer .mess {
+  padding-left: 50px;
+} 
+
+
+footer .mess a{
+  padding-right: 40px;
+}
