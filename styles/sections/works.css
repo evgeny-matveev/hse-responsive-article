@@ -36,7 +36,7 @@ figcaption {
   font-size: 24px;
 }
 
-figcaption2 {
+figcaption:last-child {
   font-size: 14px;
 }
 
@@ -80,7 +80,7 @@ figcaption2 {
     font-size: 24px;
   }
 
-  figcaption2 {
+  figcaption:last-child {
     font-size: 14px;
   }
 }
@@ -170,7 +170,7 @@ figcaption2 {
     font-size: 24px;
   }
 
-  figcaption2 {
+  figcaption:last-child {
     font-size: 14px;
   }
 }

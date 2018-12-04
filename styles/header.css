@@ -6,7 +6,6 @@ header {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-
 }
 
 header span {
@@ -16,7 +15,7 @@ header span {
 }
 
 header ul {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: white;
   font-weight: bold;
@@ -24,10 +23,6 @@ header ul {
   align-items: center;
   flex-direction: row-reverse;
 }
-
-/* #Nav1 {
-  order: 4
-} */
 
 #Nav2 {
   display: none;
