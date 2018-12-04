@@ -1,0 +1,36 @@
+.distinction {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.paragraph2 p {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 10px;
+
+  text-align: left;
+
+  font-family: "Helvetica Neue";
+  font-size: 13px;
+  line-height: 19px;
+}
+
+ @media(min-width: 1024px) {
+
+ .paragraph2 p {
+   padding-left: 15px;
+   padding-right: 20px;
+
+   text-align: justify;
+  }
+
+@media (min-width: 1440px) {
+.paragraph2 p {
+  font-size: 18px;
+  line-height: 21px;
+   padding-left: 15px;
+
+   text-align: justify;
+  }
+}

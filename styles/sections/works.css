@@ -1,0 +1,191 @@
+
+
+.name1,.name2, .name3, .name4, .name5, .name6 {
+  display: none;
+}
+
+.pic1 > a > img {
+  width: 150px;
+}
+
+.pic2 > a > img {
+  width: 150px;
+}
+
+.pic3 > a > img {
+  width: 150px;
+}
+
+.pic4 > a > img {
+  width: 150px;
+}
+
+.pic5 > a > img {
+  width: 150px;
+}
+
+.pic6 > a > img {
+  width: 150px;
+}
+
+.works {
+ display: grid;
+
+  margin-top: 11px;
+
+  justify-content: center;
+  align-items: center;
+ grid-template-columns: 150px 150px;
+ grid-template-rows: 225px 225px 225px;
+ grid-gap: 5px;
+}
+
+.grid-item {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .name1, .name2, .name3, .name4, .name5, .name6 {
+    display: none;
+  }
+
+  .grid-item {
+    display: none;
+  }
+
+  .works {
+   display: grid;
+
+    margin-top: 15px;
+
+    justify-content: center;
+    align-items: center;
+   grid-template-columns: 200px 200px 200px;
+   grid-template-rows: 300px 300px;
+   grid-gap: 10px;
+  }
+
+  .pic1 > img {
+    width: 200px;
+  }
+
+  .pic2 > img {
+    width: 200px;
+  }
+
+  .pic3 > img {
+    width: 200px;
+  }
+
+  .pic4 > img {
+    width: 200px;
+  }
+
+  .pic5 > img {
+    width: 200px;
+  }
+
+  .pic6 > img {
+    width: 200px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .name1, .name2, .name3, .name4, .name5, .name6 {
+    display: block;
+
+    color: grey;
+
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+  }
+
+  .grid-item {
+    display: block;
+  }
+
+  .works {
+   display: grid;
+
+    margin-top: 11px;
+    margin-left: 50px;
+
+    justify-content: center;
+    align-items: center;
+   grid-template-columns: 100px 200px 200px 200px 100px;
+   grid-template-rows: 300px 300px 300px 300px;
+   grid-gap: 10px;
+  }
+
+  .pic1 > img {
+    width: 200px;
+  }
+
+  .pic2 > img {
+    width: 200px;
+  }
+
+  .pic3 > img {
+    width: 200px;
+  }
+
+  .pic4 > img {
+    width: 200px;
+  }
+
+  .pic5 > img {
+    width: 200px;
+  }
+
+  .pic6 > img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .name1,.name2, .name3, .name4, .name5, .name6 {
+    display: block;
+
+    color: grey;
+
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+  }
+
+  .works {
+    display: grid;
+
+    margin-top: 30px;
+
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 250px 250px 250px 150px;
+    grid-template-rows: 375px 375px 375px 375px;
+    grid-gap: 15px;
+  }
+
+  .pic1 > a > img {
+    width: 250px;
+  }
+
+  .pic2 > a > img {
+    width: 250px;
+  }
+
+  .pic3 > a > img {
+    width: 250px;
+  }
+
+  .pic4 > a > img {
+    width: 250px;
+  }
+
+  .pic5 > a > img {
+    width: 250px;
+  }
+
+  .pic6 > a > img {
+    width: 250px;
+  }
+}

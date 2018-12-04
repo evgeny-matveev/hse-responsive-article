@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Helvetica Neue";
+
+  src: url("../fonts/helveticaneuecyr-roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "New Old Ultra Expanded";
+
+  src: url("../fonts/NewOld_UltraExpandedBlack.woff") format("woff");
+}
+
+@font-face {
+  font-family: "New Old Condensed Regular";
+
+  src: url("../fonts/NewOldCondensedRegular.woff") format("woff");
+}
