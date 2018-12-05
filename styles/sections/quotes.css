@@ -1,0 +1,100 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.quotes {
+  position: absolute;
+  top: 0;
+}
+
+
+.imagesHeader {
+  display: flex;
+  height: 40px;
+
+  justify-content: flex-start;
+}
+
+
+.imageSize {
+  width: 53px;
+  height: 40px;
+
+  background-image: url(image.png);
+
+}
+
+h1 {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+
+  color: #00288F;
+
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.blueBox {
+  height: 420px;
+  width: 320px;
+
+  background-color: #00288F;
+}
+.blueBox h2 {
+  padding: 10px 10px 10px 20px;
+
+  color: #fff;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.whiteBox {
+  height: 476px;
+  width: 320px;
+  background-color: #fff;
+}
+
+.whiteBox h2 {
+  padding: 10px 10px 10px 20px;
+
+  color: #46DB21;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.blueBoxroseFont {
+  height: 420px;
+  width: 320px;
+  background-color: #00288F;
+}
+
+.blueBoxroseFont h2 {
+  padding: 10px 10px 10px 20px;
+
+  color: #F840FC;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+@media (min-width: 768px) {
+
+  quotesHeader > div {
+    display: none;
+  }
+
+  h1 {
+    font-size: 150px;
+    color: #00288F;
+  }
+
+}
