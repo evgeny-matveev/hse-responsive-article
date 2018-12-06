@@ -47,12 +47,16 @@ body {
   .btn-project {
     padding: 8px 7px 7px 7px;
 
+    transition: all 400ms ease;
+
     background-color: #009435;
 
     font-size: 12px;
   }
 
   .btn-project:hover {
+    transform: translate(10px);
+
     background-color: #fff;
   }
 
