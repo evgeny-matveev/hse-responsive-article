@@ -13,35 +13,69 @@ body {
     background-size: cover;
     background-position: center;
     height: 440px;
+    color: #fff;
   }
 
-  nav {
+  header nav {
     width: auto;
-    background: #000;
+
+    background: rgba(0,  0, 0, .5);
   }
 
-  ul {
+  header nav ul {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
+
     height: 50px;
     padding: 0 20px;
   }
 
-  .btn-project a {
-    background-color: #009435;
+  header nav ul a {
     color: #fff;
     text-decoration: none;
-
-    padding: 7px 7px 7px 7px;
-
-    font-size: 12px;
     font-weight: 500;
   }
 
-  nav ul li:not(:last-of-type) {
+  header nav ul a:hover {
+    color: #009435;
+  }
+
+  .btn-project {
+    background-color: #009435;
+
+    padding: 8px 7px 7px 7px;
+
+    font-size: 12px;
+  }
+
+  .btn-project:hover {
+    background-color: #fff;
+  }
+
+  .li-hide {
     display: none;
   }
 
+  .header {
+    text-align: center;
+  }
+
+  .header h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    background-color: #009435;
+    width: 280px;
+    margin: 110px auto 0px;
+    padding: 10px 0 20px;
+
+  }
+
+  .header p {
+    font-weight: 600;
+    line-height: 22px;
+    margin: 16px auto 0px;
+  }
 }

@@ -5,10 +5,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 /* Мешает поставить хедер первым */
-.quotes {
+/* .quotes {
   position: absolute;
   top: 0;
-}
+} */
 
 
 .imagesHeader {
@@ -29,9 +29,9 @@ body {
 
 h1 {
   /* Мешает поставить хедер первым */
-  position: absolute;
+  /* position: absolute;
   top: 13px;
-  left: 10px;
+  left: 10px; */
 
   color: #00288F;
 
