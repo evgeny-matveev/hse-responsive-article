@@ -13,6 +13,7 @@ body {
 
 .imagesHeader {
   display: flex;
+
   height: 40px;
 
   justify-content: flex-start;
@@ -27,11 +28,11 @@ body {
 
 }
 
-h1 {
+/*h1 {
   /* Мешает поставить хедер первым */
   /* position: absolute;
   top: 13px;
-  left: 10px; */
+  left: 10px;
 
   color: #00288F;
 
@@ -40,8 +41,8 @@ h1 {
 }
 
 .blueBox {
+  width: 320px;
   height: 420px;
-  width: 320px;
 
   background-color: #00288F;
 }
@@ -56,8 +57,9 @@ h1 {
 }
 
 .whiteBox {
+  width: 320px;
   height: 476px;
-  width: 320px;
+
   background-color: #fff;
 }
 
@@ -72,8 +74,9 @@ h1 {
 }
 
 .blueBoxroseFont {
+  width: 320px;
   height: 420px;
-  width: 320px;
+
   background-color: #00288F;
 }
 
@@ -94,8 +97,10 @@ h1 {
   }
 
   h1 {
-    font-size: 150px;
     color: #00288F;
+
+    font-size: 150px;
   }
 
 }
+*/
