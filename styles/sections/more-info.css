@@ -5,9 +5,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
 .moreinfo {
-transform: scale(322 209);
+width: 300;
+height: auto;
+}
+
+.more-info-starting {
+
 }
