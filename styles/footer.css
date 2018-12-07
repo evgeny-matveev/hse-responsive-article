@@ -1,0 +1,38 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext');
+
+@media (max-width: 767px) {
+
+  footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  footer h2 {
+    font-size: 29px;
+    line-height: 35px;
+    font-weight: 700;
+  }
+
+  footer h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  footer p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+
+  footer img {
+    border-radius: 50%;
+    border: 3px solid #009435;
+  }
+}
