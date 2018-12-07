@@ -1,0 +1,20 @@
+.content_bio h1 {
+  font-family: 'Prata', serif;
+  font-size: 36px;
+  text-align: center;
+  width: 242px;
+  height: 98px;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+
+.avatar {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+.avatar img {
+  width: 220px;
+  height: 220px;
+}

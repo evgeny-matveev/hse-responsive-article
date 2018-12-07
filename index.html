@@ -3,32 +3,162 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title></title>
+  <title>Альфонс Мариа Муха</title>
   <link rel="stylesheet" href="styles/layout.css">
 </head>
 <body>
   <header>
-
+    <span>АМ</span>
+      <ul>
+        <li id="Nav1">О ПРОЕКТЕ</li>
+        <li id="Nav2">МАТЕРИАЛЫ</li>
+        <li id="Nav3">СОДЕРЖАНИЕ</li>
+        <li id="Nav4">ПОДЕЛИТЬСЯ</li>
+      </ul>
   </header>
   <main>
     <section class="about">
-
+      <div class="avatar">
+        <img src="img/muha.png" alt="muha">
+      </div>
+      <div class="content_bio">
+        <h1>Альфо́нс Мари́а Му́ха</h1>
+        <span>1860-1939</span>
+        <h2>“Художник Альфонс Муха: виртуоз «искусства для всех»”</h2>
+        <div class="content_bio_text">
+          <p>Чешско-моравский живописец, театральный художник, иллюстратор, ювелирный дизайнер и плакатист, один из наиболее известных представителей стиля «ар нуво».</p>
+        </div>
+        <div class="border">
+        </div>
+      </div>
     </section>
     <section class="distinction">
-
+      <ul>
+        <li><span>Отказ от прямых линий</span></li>
+        <li><span>Естественные природные изгибы</span></li>
+        <li><span>Новые изысканные формы</span></li>
+      </ul>
+      <div class="border">
+      </div>
     </section>
     <section class="works">
-
-    </section>
-    <section class="quotes">
-
+      <h2>Галерея</h2>
+      <div class="works">
+        <div class="location">
+          <img class="img1" src="img/images/1.jpeg" alt="Весна">
+          <figcaption>Весна</figcaption>
+          <figcaption>1896</figcaption>
+        </div>
+        <div class="location">
+          <img class="img2" src="img/images/2.jpeg" alt="Зима">
+          <figcaption>Зима</figcaption>
+          <figcaption>1896</figcaption>
+        </div>
+        <div class="location">
+          <img class="img3" src="img/images/3.jpeg" alt="Лето">
+          <figcaption>Лето</figcaption>
+          <figcaption>1896</figcaption>
+        </div>
+        <div class="location">
+          <img class="img4" src="img/images/4.jpeg" alt="Осень">
+          <figcaption>Осень</figcaption>
+          <figcaption>1896</figcaption>
+        </div>
+        <div class="location">
+          <img class="img4" src="img/images/5.jpg" alt="Реклама:Монако, Монте-Карло">
+          <figcaption>Реклама:Монако, Монте-Карло</figcaption>
+          <figcaption>1897</figcaption>
+        </div>
+        <div class="location">
+          <img class="img4" src="img/images/6.jpeg" alt="Завод по производству мыла из Баньоле">
+          <figcaption>Завод по производству мыла из Баньоле</figcaption>
+          <figcaption>1897</figcaption>
+        </div>
+        <div class="location">
+          <img class="img4" src="img/images/7.jpeg" alt="Реклама велосипедов марки PERFECTA">
+          <figcaption>Реклама велосипедов марки PERFECTA</figcaption>
+          <figcaption>1897</figcaption>
+        </div>
+        <div class="location">
+          <img class="img4" src="img/images/8.jpg" alt="Танец">
+          <figcaption>Танец</figcaption>
+          <figcaption>1897</figcaption>
+          </div>
+      </div>
     </section>
     <section class="more-info">
-
+      <script>
+       function change(inside) {
+         if(document.getElementById(inside).style.display=='none') {
+           document.getElementById(inside).style.display = 'flex';
+         } else {
+           document.getElementById(inside).style.display = 'none';
+         }
+       }
+     </script>
+      <a class="button" onclick="change('inside')">
+        Узнать больше
+      </a>
+      <div id="inside">
+        <ul>
+          <li><a href="http://www.muchafoundation.org/">Официальный сайт фонда А. Мухи</a></li>
+          <li><a href="http://staratel.com/pictures/modern_/mucha/main.htm">Работы Альфонса Мухи</a></li>
+          <li><a href="http://www.newacropolis.ru/magazines/1_2004/Alf_Muha_Prevr_zemn_/">Альфонс Муха. Превращая «земное» в искусство</a></li>
+          <li><a href="https://web.archive.org/web/20070207225359/http://cfe.iip.net/new/Mucha.htm">Альфонс Муха и его шедевры в стиле модерн</a></li>
+          <li><a href="http://art.frominfo.ru/gallereya/alfons-mariya-muxa">Около 300 работ Альфонса Мухи</a></li>
+          <li><a href="http://art.frominfo.ru/gallereya/alfons-muxaslavyanskaya-epopeya">Альфонс Муха</a></li>
+          <li><a href="http://talne-info.com/articles-art/alphonse_mucha/">Альфонс Муха: Цветы и грезы Арт Нуво</a></li>
+          <li><a href="http://www.euroholidays.cz/allnews/95-slavjanskaja-jepopeja-alfons-muha">«Славянская эпопея» Альфонс Муха</a></li>
+          <li><a href="http://www.ngprague.cz/cz/10/0/4140/sekce/alfons-mucha-slovanska-epopej/">Veletržní palác</a></li>
+          <li><a href="http://www.muchafoundation.org/gallery/browse-works/object/9/">Автопортрет в масонском облачении</a></li>
+        </ul>
+        <a class="button back" onclick="change('inside')">
+          Свернуть
+        </a>
+      </div>
     </section>
   </main>
   <footer>
-
+    <h4>Контакты</h4>
+    <h5>Студия разработчик</h5>
+    <p>HSEADC2018</p>
+    <h5>Креативный директор</h5>
+    <p>Евгений Матвеев</p>
+    <h5>Верстка и дизайн</h5>
+    <div class="autor_320size">
+      <p>Наринский Григорий</p>
+      <p>Александра Гаскевич</p>
+      <p>Пенина Валерия</p>
+      <p>Ламина Елена</p>
+      <p>Пирог Мария</p>
+      <p>Инсафутдинова Валерия</p>
+    </div>
+    <div class="autor_768size">
+      <div class="first">
+        <p>Наринский Григорий</p>
+        <p>Александра Гаскевич</p>
+        <p>Пенина Валерия</p>
+      </div>
+      <div class="second">
+        <p>Ламина Елена</p>
+        <p>Пирог Мария</p>
+        <p>Инсафутдинова Валерия</p>
+      </div>
+    </div>
+    <div class="autor_1024px">
+      <div class="one">
+        <p>Наринский Григорий</p>
+        <p>Александра Гаскевич</p>
+      </div>
+      <div class="two">
+        <p>Пенина Валерия</p>
+        <p>Ламина Елена</p>
+      </div>
+      <div class="three">
+        <p>Пирог Мария</p>
+        <p>Инсафутдинова Валерия</p>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
