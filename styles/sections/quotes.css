@@ -4,11 +4,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-/* Мешает поставить хедер первым */
-/* .quotes {
-  position: absolute;
-  top: 0;
-} */
+
+.quotes {
+  width: 100%;
+}
 
 
 .imagesHeader {
@@ -28,9 +27,14 @@ body {
 
 }
 
-/*h1 {
-  /* Мешает поставить хедер первым */
-  /* position: absolute;
+.quotesHeader {
+  position: relative;
+  background-color: #ccc;
+}
+
+h1 {
+  position: absolute;
+  display: block;
   top: 13px;
   left: 10px;
 
@@ -41,7 +45,8 @@ body {
 }
 
 .blueBox {
-  width: 320px;
+  width: 320px;
+
   height: 420px;
 
   background-color: #00288F;
@@ -57,7 +62,8 @@ body {
 }
 
 .whiteBox {
-  width: 320px;
+  width: 320px;
+
   height: 476px;
 
   background-color: #fff;
@@ -74,7 +80,8 @@ body {
 }
 
 .blueBoxroseFont {
-  width: 320px;
+  width: 320px;
+
   height: 420px;
 
   background-color: #00288F;
@@ -92,10 +99,6 @@ body {
 
 @media (min-width: 768px) {
 
-  quotesHeader > div {
-    display: none;
-  }
-
   h1 {
     color: #00288F;
 
@@ -103,4 +106,4 @@ body {
   }
 
 }
-*/
+
