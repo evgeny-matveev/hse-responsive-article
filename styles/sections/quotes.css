@@ -2,17 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .quotes {
   width: 100%;
 }
 
+.quotesHeader {
+  position: relative;
+}
 
 .imagesHeader {
   display: flex;
-
   height: 40px;
 
   justify-content: flex-start;
@@ -23,13 +25,16 @@ body {
   width: 53px;
   height: 40px;
 
-  background-image: url(image.png);
+  /* background-image: url(image.png); */
 
 }
 
-.quotesHeader {
-  position: relative;
-  background-color: #ccc;
+.imageSize:nth-of-type(7) {
+  display: none;
+}
+
+.imageSize:nth-of-type(8) {
+  display: none;
 }
 
 h1 {
@@ -44,14 +49,13 @@ h1 {
   font-weight: 900;
 }
 
-.blueBox {
-  width: 320px;
-
+.firstBox {
   height: 420px;
+  width: 100%;
 
   background-color: #00288F;
 }
-.blueBox h2 {
+.firstBox h2 {
   padding: 10px 10px 10px 20px;
 
   color: #fff;
@@ -61,15 +65,13 @@ h1 {
   line-height: 50px;
 }
 
-.whiteBox {
-  width: 320px;
-
+.secondBox {
   height: 476px;
-
+  width: 320px;
   background-color: #fff;
 }
 
-.whiteBox h2 {
+.secondBox h2 {
   padding: 10px 10px 10px 20px;
 
   color: #46DB21;
@@ -79,15 +81,13 @@ h1 {
   line-height: 50px;
 }
 
-.blueBoxroseFont {
-  width: 320px;
-
+.thirdBox {
   height: 420px;
-
+  width: 320px;
   background-color: #00288F;
 }
 
-.blueBoxroseFont h2 {
+.thirdBox h2 {
   padding: 10px 10px 10px 20px;
 
   color: #F840FC;
@@ -97,13 +97,311 @@ h1 {
   line-height: 50px;
 }
 
+.lastBox {
+  height: 476px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.lastBox h2 {
+  padding: 10px 10px 10px 20px;
+
+  color: #46DB21;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
 @media (min-width: 768px) {
 
-  h1 {
-    color: #00288F;
+  .quotesHeader {
+    display: flex;
+    height: 192px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .imagesHeader {
+    display: block;
+    height: 96px;
+    margin: -5px;
+  }
 
-    font-size: 150px;
+  .imageSize {
+    width: 127px;
+    height: 96px;
+  }
+
+  h1 {
+    font-size: 140px;
+    color: #00288F;
+  }
+
+  .firstBox {
+    height: 151px;
+    background-color: #00288F;
+  }
+
+  .firstBox h2 {
+    padding: 10px 10px 10px 20px;
+
+    color: #fff;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .twoBoxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .secondBox {
+    height: 383px;
+    width: 50%;
+    background-color: #fff;
+  }
+
+  .secondBox h2 {
+    margin-top: 37px;
+    margin-left: 20px;
+
+    color: #46DB21;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: right;
+    width: 292px;
+  }
+
+  .thirdBox {
+    height: 383px;
+    width: 50%;
+    background-color: #46DB21;
+  }
+
+  .thirdBox h2 {
+    margin-top: 37px;
+    margin-left: 20px;
+
+    color: #F840FC;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 292px;
+  }
+
+  .lastBox {
+    height: 151px;
+    background-color: #00288F;
+  }
+
+  .lastBox h2 {
+    padding: 10px 10px 10px 20px;
+
+    color: #F840FC;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
   }
 
 }
+
+@media (min-width: 1024px) {
+
+  .quotesHeader {
+    height: 256px;
+  }
+
+  .imageSize {
+    width: 169px;
+    height: 128px;
+
+  }
+
+  h1 {
+    font-size: 183px;
+    color: #00288F;
+  }
+
+  .firstBox {
+    height: 202px;
+    background-color: #00288F;
+  }
+
+  .firstBox h2 {
+    padding-top: 39px;
+
+    color: #fff;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .twoBoxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .secondBox {
+    height: 468px;
+    width: 50%;
+    background-color: #fff;
+  }
+
+  .secondBox h2 {
+    margin-top: 37px;
+    margin-left: -3px;
+
+    color: #46DB21;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: right;
+    width: 454px;
+  }
+
+  .thirdBox {
+    height: 468px;
+    width: 50%;
+    background-color: #46DB21;
+  }
+
+  .thirdBox h2 {
+    margin-top: 37px;
+    margin-left: 20px;
+
+    color: #F840FC;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 454px;
+  }
+
+  .lastBox {
+    height: 202px;
+    background-color: #00288F;
+  }
+
+  .lastBox h2 {
+    padding-top: 39px;
+
+    color: #F840FC;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .quotesHeader {
+    height: 272px;
+  }
+
+  .imageSize {
+    width: 179px;
+    height: 136px;
+
+  }
+
+  .imageSize:nth-of-type(7) {
+    display: inline-block;
+  }
+
+  .imageSize:nth-of-type(8) {
+    display: inline-block;
+  }
+
+
+  h1 {
+    font-size: 199px;
+    color: #00288F;
+  }
+
+  .firstBox {
+    height: 162px;
+    background-color: #00288F;
+  }
+
+  .firstBox h2 {
+    padding-top: 39px;
+
+    color: #fff;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .twoBoxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .secondBox {
+    height: 305px;
+    width: 50%;
+    background-color: #fff;
+  }
+
+  .secondBox h2 {
+    margin-top: 25px;
+    margin-left: 190px;
+
+    color: #46DB21;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: right;
+    width: 454px;
+  }
+
+  .thirdBox {
+    height: 305px;
+    width: 50%;
+    background-color: #46DB21;
+  }
+
+  .thirdBox h2 {
+    margin-top: 25px;
+    margin-left: 20px;
+
+    color: #F840FC;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 454px;
+  }
+
+  .lastBox {
+    height: 162px;
+    background-color: #00288F;
+  }
+
+  .lastBox h2 {
+    padding-top: 39px;
+
+    color: #F840FC;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+}
+
+}
+
 
