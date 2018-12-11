@@ -47,7 +47,6 @@ h1 span.spacermi {
   font-size: 21px;
   font-weight: 700;
   line-height: 30px;
-
 }
 
 .redboxmi p {
@@ -150,10 +149,482 @@ p span {
 
   font-size: 14px;
   line-height: 18px;
-
 }
 
 .moreinfofin p{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+
+  .more-info-starting {
+    width: 767px;
+    height: 496px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+  }
+
+  h1 span {
+    color: #fff;
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 150px;
+  }
+
+  h1 span.spacermi {
+    padding: 0 5px;
+
+    background-color: rgb(228, 178, 184, 0.05);
+  }
+
+  .moreinfo p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .redboxmi p {
+    height: 100px;
+    padding-top: 28px;
+    padding-left: 20px;
+
+    color: #fff;
+    background-color: rgba(173, 22, 40, 0.8);
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .redrectmi1 {
+    float: left;
+
+    width: 26px;
+    height: 99px;
+    margin-top: 42px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 90px;
+    font-weight: 400;
+  }
+
+  .redrectmi2 {
+    float: left;
+
+    width: 160px;
+    height: 99px;
+    margin-top: 42px;
+    margin-right: 7px;
+    margin-left: 0px;
+    padding-top: 24px;
+    padding-left: 2px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .quotesmi p {
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+    text-align: justify;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .quotesmi1 {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 18px;
+  }
+
+  p span {
+    color: #fff;
+    background-color: rgb(173, 22, 40, 0.8);
+
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 18px;
+  }
+
+  .redrectmi3 {
+    width: 46px;
+    height: 99px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 90px;
+    font-weight: 400;
+  }
+
+  .redrectmi4 {
+    width: 140px;
+    height: 99px;
+    margin-top: -99px;
+    margin-right: 7px;
+    margin-left: 66px;
+    padding-top: 24px;
+    padding-left: 2px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .moreinfofin {
+    margin: 20px;
+
+    text-align: justify;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .moreinfofin p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+  .more-info-starting {
+    width: 1022px;
+    height: 661px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  h1 span {
+    color: #fff;
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 150px;
+  }
+
+  h1 span.spacermi {
+    padding: 0 5px;
+
+    background-color: rgb(228, 178, 184, 0.05);
+  }
+
+  .moreinfo p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .redboxmi p {
+    height: 100px;
+    padding-top: 28px;
+    padding-left: 20px;
+
+    color: #fff;
+    background-color: rgba(173, 22, 40, 0.8);
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .redrectmi1 {
+    float: left;
+
+    width: 26px;
+    height: 99px;
+    margin-top: 42px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 90px;
+    font-weight: 400;
+  }
+
+  .redrectmi2 {
+    float: left;
+
+    width: 160px;
+    height: 99px;
+    margin-top: 42px;
+    margin-right: 15px;
+    margin-left: 0px;
+    padding-top: 24px;
+    padding-left: 2px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .quotesmi p {
+    margin-bottom: 10px;
+    margin-left: 40px;
+
+    text-align: justify;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .quotesmi1 {
+    width: 524px;
+    height: 132px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 18px;
+  }
+
+  p span {
+    color: #fff;
+    background-color: rgb(173, 22, 40, 0.8);
+
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 18px;
+  }
+
+  .redrectmi3 {
+    width: 46px;
+    height: 99px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 90px;
+    font-weight: 400;
+  }
+
+  .redrectmi4 {
+    width: 140px;
+    height: 99px;
+    margin-top: -99px;
+    margin-right: 7px;
+    margin-left: 66px;
+    padding-top: 24px;
+    padding-left: 2px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .moreinfofin {
+    margin: 20px;
+
+    text-align: justify;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .moreinfofin p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .more-info-starting {
+    width: 1022px;
+    height: 661px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+
+  h1 span {
+    color: #fff;
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 150px;
+  }
+
+  h1 span.spacermi {
+    padding: 0 5px;
+
+    background-color: rgb(228, 178, 184, 0.05);
+  }
+
+  .moreinfo p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .redboxmi p {
+    height: 100px;
+    padding-top: 28px;
+    padding-left: 20px;
+
+    color: #fff;
+    background-color: rgba(173, 22, 40, 0.8);
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .redrectmi1 {
+    float: left;
+
+    width: 26px;
+    height: 99px;
+    margin-top: 42px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 90px;
+    font-weight: 400;
+  }
+
+  .redrectmi2 {
+    float: left;
+
+    width: 160px;
+    height: 99px;
+    margin-top: 42px;
+    margin-right: 7px;
+    margin-left: 0px;
+    padding-top: 24px;
+    padding-left: 2px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .quotesmi p {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+    text-align: justify;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .quotesmi1 {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 18px;
+  }
+
+  p span {
+    color: #fff;
+    background-color: rgb(173, 22, 40, 0.8);
+
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 18px;
+  }
+
+  .redrectmi3 {
+    width: 46px;
+    height: 99px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 90px;
+    font-weight: 400;
+  }
+
+  .redrectmi4 {
+    width: 140px;
+    height: 99px;
+    margin-top: -99px;
+    margin-right: 7px;
+    margin-left: 66px;
+    padding-top: 24px;
+    padding-left: 2px;
+
+    background-color: rgb(228, 178, 184, 0.5);
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .moreinfofin {
+    margin: 20px;
+
+    text-align: justify;
+
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .moreinfofin p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
