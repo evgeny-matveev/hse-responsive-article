@@ -11,33 +11,15 @@ body {
 
 .quotesHeader {
   position: relative;
+  width: 100%;
 }
 
 .imagesHeader {
-  display: flex;
-  height: 40px;
-
-  justify-content: flex-start;
+  height: 90px;
+  background-image: url("img/image.png");
 }
 
-
-.imageSize {
-  width: 53px;
-  height: 40px;
-
-  /* background-image: url(image.png); */
-
-}
-
-.imageSize:nth-of-type(7) {
-  display: none;
-}
-
-.imageSize:nth-of-type(8) {
-  display: none;
-}
-
-h1 {
+.quotes h1 {
   position: absolute;
   display: block;
   top: 13px;
@@ -115,26 +97,12 @@ h1 {
 
 @media (min-width: 768px) {
 
-  .quotesHeader {
-    display: flex;
-    height: 192px;
-    width: 100%;
-    justify-content: flex-start;
-  }
   .imagesHeader {
-    display: block;
-    height: 96px;
-    margin: -5px;
+    height: 192px;
   }
 
-  .imageSize {
-    width: 127px;
-    height: 96px;
-  }
-
-  h1 {
-    font-size: 140px;
-    color: #00288F;
+  .quotes h1 {
+    font-size: 160px;
   }
 
   .firstBox {
@@ -213,19 +181,13 @@ h1 {
 
 @media (min-width: 1024px) {
 
-  .quotesHeader {
+
+  .imagesHeader {
     height: 256px;
   }
 
-  .imageSize {
-    width: 169px;
-    height: 128px;
-
-  }
-
-  h1 {
-    font-size: 183px;
-    color: #00288F;
+  .quotes h1 {
+    font-size: 180px;
   }
 
   .firstBox {
@@ -304,26 +266,11 @@ h1 {
 
 @media (min-width: 1440px) {
 
-  .quotesHeader {
+  .imagesHeader {
     height: 272px;
   }
 
-  .imageSize {
-    width: 179px;
-    height: 136px;
-
-  }
-
-  .imageSize:nth-of-type(7) {
-    display: inline-block;
-  }
-
-  .imageSize:nth-of-type(8) {
-    display: inline-block;
-  }
-
-
-  h1 {
+  .quotes h1 {
     font-size: 199px;
     color: #00288F;
   }
@@ -403,5 +350,6 @@ h1 {
 }
 
 }
+
 
 
