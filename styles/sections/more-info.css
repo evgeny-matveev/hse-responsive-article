@@ -20,13 +20,13 @@ font-weight: bold;
   width: 100%;
 }
 
-h1 {
+.moreinfo h1 {
   position: absolute;
   top: 80px;
   left: 10px;
 }
 
-h1 span {
+.moreinfo h1 span {
   color: #fff;
   background-color: rgb(228, 178, 184, 0.5);
 
@@ -103,7 +103,7 @@ h1 span.spacermi {
   line-height: 18px;
 }
 
-p span {
+.quotesmi p span {
   color: #fff;
   background-color: rgb(173, 22, 40, 0.8);
 
@@ -163,13 +163,13 @@ p span {
     height: 496px;
   }
 
-  h1 {
+  .more-info-starting h1 {
     position: absolute;
     top: 170px;
     left: 20px;
   }
 
-  h1 span {
+  .more-info-starting h1 span {
     color: #fff;
     background-color: rgb(228, 178, 184, 0.5);
 
@@ -258,7 +258,7 @@ p span {
     line-height: 18px;
   }
 
-  p span {
+  .quotesmi p span {
     color: #fff;
     background-color: rgb(173, 22, 40, 0.8);
 
@@ -319,13 +319,13 @@ p span {
     height: 661px;
   }
 
-  h1 {
+  .more-info-starting h1 {
     position: absolute;
     top: 230px;
     left: 20px;
   }
 
-  h1 span {
+  .more-info-starting h1 span {
     color: #fff;
     background-color: rgb(228, 178, 184, 0.5);
 
@@ -419,7 +419,7 @@ p span {
     line-height: 18px;
   }
 
-  p span {
+  .quotesmi p span {
     color: #fff;
     background-color: rgb(173, 22, 40, 0.8);
 
@@ -480,13 +480,13 @@ p span {
     height: 661px;
   }
 
-  h1 {
+  .more-info-starting h1 {
     position: absolute;
     top: 230px;
     left: 20px;
   }
 
-  h1 span {
+  .more-info-starting h1 span {
     color: #fff;
     background-color: rgb(228, 178, 184, 0.5);
 
@@ -575,7 +575,7 @@ p span {
     line-height: 18px;
   }
 
-  p span {
+  .quotesmi p span {
     color: #fff;
     background-color: rgb(173, 22, 40, 0.8);
 
