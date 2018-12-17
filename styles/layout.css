@@ -8,12 +8,13 @@
 @import "sections/more-info.css";
 @import "footer.css";
 @import "header.css";
+@import "about.css";
 
 * {
   box-sizing: border-box;
 
+  font-family: 'Montserrat', sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-family: 'Montserrat', sans-serif;
 }
