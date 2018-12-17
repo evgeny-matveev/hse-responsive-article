@@ -1,15 +1,21 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext');
 
+  section.achievments{
+    background-image: url("../../img/space320.png");
+    background-position: center;
+  }
+
   .works{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0D082B;
+    background-image: url("../../img/space320.png");
   }
 
   .h2-works{
+    background-image: url("../../img/space320.png");
     color: #FFFFFF;
     font-size: 54px;
     font-weight: 900;
