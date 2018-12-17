@@ -35,7 +35,7 @@ font-weight: bold;
   line-height: 60px;
 }
 
-h1 span.spacermi {
+.moreinfo h1 span.spacermi {
   padding: 0 2px;
 
   background-color: rgb(228, 178, 184, 0.05);
@@ -88,7 +88,7 @@ h1 span.spacermi {
   line-height: 14px;
 }
 
-.quotesmi p {
+.miblock0 p {
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
@@ -96,14 +96,14 @@ h1 span.spacermi {
   text-align: justify;
 }
 
-.quotesmi1 {
+.miblock1 {
   font-size: 14px;
   font-weight: 700;
   font-style: italic;
   line-height: 18px;
 }
 
-.quotesmi p span {
+.miblock0 p span {
   color: #fff;
   background-color: rgb(173, 22, 40, 0.8);
 
@@ -112,7 +112,7 @@ h1 span.spacermi {
   line-height: 18px;
 }
 
-.redrectmi3 {
+.redrectmi4 {
   width: 26px;
   height: 46px;
   margin-top: 10px;
@@ -125,7 +125,7 @@ h1 span.spacermi {
   font-weight: 400;
 }
 
-.redrectmi4 {
+.redrectmi5 {
   float: left;
 
   width: 60px;
@@ -142,7 +142,7 @@ h1 span.spacermi {
   line-height: 14px;
 }
 
-.moreinfofin {
+.miblock2 {
   margin: 10px;
 
   text-align: justify;
@@ -151,7 +151,7 @@ h1 span.spacermi {
   line-height: 18px;
 }
 
-.moreinfofin p{
+.miblock2 p{
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -163,13 +163,13 @@ h1 span.spacermi {
     height: 496px;
   }
 
-  .more-info-starting h1 {
+  .moreinfo h1 {
     position: absolute;
     top: 170px;
     left: 20px;
   }
 
-  .more-info-starting h1 span {
+  .moreinfo h1 span {
     color: #fff;
     background-color: rgb(228, 178, 184, 0.5);
 
@@ -178,7 +178,7 @@ h1 span.spacermi {
     line-height: 150px;
   }
 
-  h1 span.spacermi {
+  .moreinfo h1 span.spacermi {
     padding: 0 5px;
 
     background-color: rgb(228, 178, 184, 0.05);
@@ -211,7 +211,7 @@ h1 span.spacermi {
 
     width: 26px;
     height: 99px;
-    margin-top: 42px;
+    margin-top: 10px;
     margin-left: 20px;
     padding-top: 10px;
     padding-left: 0px;
@@ -227,7 +227,7 @@ h1 span.spacermi {
 
     width: 160px;
     height: 99px;
-    margin-top: 42px;
+    margin-top: 10px;
     margin-right: 7px;
     margin-left: 0px;
     padding-top: 24px;
@@ -240,8 +240,8 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .quotesmi p {
-    margin-top: 35px;
+  .miblock0 p {
+    margin-top: 20px;
     margin-right: 10px;
     margin-left: 20px;
 
@@ -251,14 +251,14 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .quotesmi1 {
+  .miblock1 {
     font-size: 14px;
     font-weight: 700;
     font-style: italic;
     line-height: 18px;
   }
 
-  .quotesmi p span {
+  .miblock0 p span {
     color: #fff;
     background-color: rgb(173, 22, 40, 0.8);
 
@@ -267,7 +267,9 @@ h1 span.spacermi {
     line-height: 18px;
   }
 
-  .redrectmi3 {
+  .redrectmi4 {
+    float: left;
+
     width: 46px;
     height: 99px;
     margin-top: 30px;
@@ -281,12 +283,14 @@ h1 span.spacermi {
     font-weight: 400;
   }
 
-  .redrectmi4 {
+  .redrectmi5 {
+    float: left;
+
     width: 140px;
     height: 99px;
-    margin-top: -99px;
+    margin-top: 30px;
     margin-right: 7px;
-    margin-left: 66px;
+    margin-left: 0px;
     padding-top: 24px;
     padding-left: 2px;
 
@@ -297,7 +301,7 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .moreinfofin {
+  .miblock2 {
     margin: 20px;
 
     text-align: justify;
@@ -306,7 +310,7 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .moreinfofin p{
+  .miblock2 p{
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -315,26 +319,26 @@ h1 span.spacermi {
 @media (min-width: 1024px) and (max-width: 1439px) {
 
   .more-info-starting {
-    width: 1022px;
-    height: 661px;
+    width: 1224px;
+    height: 681px;
   }
 
-  .more-info-starting h1 {
+  .moreinfo h1 {
     position: absolute;
-    top: 230px;
-    left: 20px;
+    top: 270px;
+    left: 30px;
   }
 
-  .more-info-starting h1 span {
+  .moreinfo h1 span {
     color: #fff;
     background-color: rgb(228, 178, 184, 0.5);
 
     font-size: 130px;
     font-weight: 700;
-    line-height: 150px;
+    line-height: 158px;
   }
 
-  h1 span.spacermi {
+  .moreinfo h1 span.spacermi {
     padding: 0 5px;
 
     background-color: rgb(228, 178, 184, 0.05);
@@ -362,13 +366,21 @@ h1 span.spacermi {
     line-height: 40px;
   }
 
+  .contentmi {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .redrectmi0 {
+    width: 20%;
+  }
+
   .redrectmi1 {
     float: left;
 
-    width: 26px;
     height: 99px;
     margin-top: 42px;
-    margin-left: 20px;
     padding-top: 10px;
     padding-left: 0px;
 
@@ -379,13 +391,8 @@ h1 span.spacermi {
   }
 
   .redrectmi2 {
-    float: left;
-
-    width: 160px;
     height: 99px;
     margin-top: 42px;
-    margin-right: 15px;
-    margin-left: 0px;
     padding-top: 24px;
     padding-left: 2px;
 
@@ -396,30 +403,19 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .quotesmi p {
+  .miblock0 {
+    width: 30%;
     margin-bottom: 10px;
-    margin-left: 40px;
+  }
 
+  .miblock0 p {
     text-align: justify;
 
     font-size: 25px;
     line-height: 30px;
   }
 
-  .quotesmi1 {
-    width: 524px;
-    height: 132px;
-    margin-top: 35px;
-    margin-bottom: 30px;
-    margin-left: 40px;
-
-    font-size: 14px;
-    font-weight: 700;
-    font-style: italic;
-    line-height: 18px;
-  }
-
-  .quotesmi p span {
+  .miblock0 p span {
     color: #fff;
     background-color: rgb(173, 22, 40, 0.8);
 
@@ -429,10 +425,13 @@ h1 span.spacermi {
   }
 
   .redrectmi3 {
+    width: 20%;
+  }
+
+  .redrectmi4 {
     width: 46px;
     height: 99px;
     margin-top: 30px;
-    margin-left: 20px;
     padding-top: 10px;
     padding-left: 0px;
 
@@ -442,12 +441,10 @@ h1 span.spacermi {
     font-weight: 400;
   }
 
-  .redrectmi4 {
+  .redrectmi5 {
     width: 140px;
     height: 99px;
-    margin-top: -99px;
-    margin-right: 7px;
-    margin-left: 66px;
+    margin-top: 30px;
     padding-top: 24px;
     padding-left: 2px;
 
@@ -458,8 +455,9 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .moreinfofin {
-    margin: 20px;
+  .miblock2 {
+    width: 30%;
+    margin-top: 20px;
 
     text-align: justify;
 
@@ -467,7 +465,7 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .moreinfofin p{
+  .miblock2 p{
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -476,26 +474,26 @@ h1 span.spacermi {
 @media (min-width: 1440px) {
 
   .more-info-starting {
-    width: 1022px;
-    height: 661px;
+    width: 1440px;
+    height: 900px;
   }
 
-  .more-info-starting h1 {
+  .moreinfo h1 {
     position: absolute;
-    top: 230px;
-    left: 20px;
+    top: 430px;
+    left: 40px;
   }
 
-  .more-info-starting h1 span {
+  .moreinfo h1 span {
     color: #fff;
     background-color: rgb(228, 178, 184, 0.5);
 
     font-size: 130px;
     font-weight: 700;
-    line-height: 150px;
+    line-height: 158px;
   }
 
-  h1 span.spacermi {
+  .moreinfo h1 span.spacermi {
     padding: 0 5px;
 
     background-color: rgb(228, 178, 184, 0.05);
@@ -523,13 +521,21 @@ h1 span.spacermi {
     line-height: 40px;
   }
 
+  .contentmi {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .redrectmi0 {
+    width: 20%;
+  }
+
   .redrectmi1 {
     float: left;
 
-    width: 26px;
     height: 99px;
     margin-top: 42px;
-    margin-left: 20px;
     padding-top: 10px;
     padding-left: 0px;
 
@@ -540,13 +546,8 @@ h1 span.spacermi {
   }
 
   .redrectmi2 {
-    float: left;
-
-    width: 160px;
     height: 99px;
     margin-top: 42px;
-    margin-right: 7px;
-    margin-left: 0px;
     padding-top: 24px;
     padding-left: 2px;
 
@@ -557,25 +558,19 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .quotesmi p {
-    margin-top: 50px;
-    margin-right: 10px;
-    margin-left: 20px;
+  .miblock0 {
+    width: 30%;
+    margin-bottom: 10px;
+  }
 
+  .miblock0 p {
     text-align: justify;
 
     font-size: 25px;
     line-height: 30px;
   }
 
-  .quotesmi1 {
-    font-size: 14px;
-    font-weight: 700;
-    font-style: italic;
-    line-height: 18px;
-  }
-
-  .quotesmi p span {
+  .miblock0 p span {
     color: #fff;
     background-color: rgb(173, 22, 40, 0.8);
 
@@ -585,10 +580,13 @@ h1 span.spacermi {
   }
 
   .redrectmi3 {
+    width: 20%;
+  }
+
+  .redrectmi4 {
     width: 46px;
     height: 99px;
     margin-top: 30px;
-    margin-left: 20px;
     padding-top: 10px;
     padding-left: 0px;
 
@@ -598,12 +596,9 @@ h1 span.spacermi {
     font-weight: 400;
   }
 
-  .redrectmi4 {
+  .redrectmi5 {
     width: 140px;
     height: 99px;
-    margin-top: -99px;
-    margin-right: 7px;
-    margin-left: 66px;
     padding-top: 24px;
     padding-left: 2px;
 
@@ -614,8 +609,9 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .moreinfofin {
-    margin: 20px;
+  .miblock2 {
+    width: 30%;
+    margin-top: 20px;
 
     text-align: justify;
 
@@ -623,7 +619,7 @@ h1 span.spacermi {
     line-height: 30px;
   }
 
-  .moreinfofin p{
+  .miblock2 p{
     margin-top: 10px;
     margin-bottom: 10px;
   }
