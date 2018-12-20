@@ -1,0 +1,148 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext');
+
+
+
+  .distinction{
+    background-color: #A4520C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h2-distinction{
+    background-image: url("../../img/weed320.png");
+    color: #FFFFFF;
+    background-color: #000000;
+
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 54px;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .distinction p{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+
+  .distinction img{
+    max-width: 100%;
+    max-height: auto;
+  }
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+  .distinction{
+    background-color: #A4520C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h2-distinction{
+    color: #FFFFFF;
+    background-color: #000000;
+
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+    text-transform: uppercase;
+
+  }
+
+  .distinction p{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+  .distinction{
+    background-color: #A4520C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .h2-distinction{
+    color: #FFFFFF;
+    background-color: #000000;
+
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+    text-transform: uppercase;
+
+
+  }
+
+  .distinction p{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+}
+
+@media (min-width: 1440px){
+
+  .distinction{
+    background-color: #A4520C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .h2-distinction{
+    color: #FFFFFF;
+    background-color: #000000;
+
+    font-size: 170px;
+    font-weight: 900;
+    line-height: 170px;
+    text-transform: uppercase;
+
+
+  }
+
+  .distinction p{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+
+}
